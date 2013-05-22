@@ -1,0 +1,78 @@
+# Current time Thu May 16 08:14:22 2013
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.0c"
+# Version = "2011.09"
+# Date = "Sep 21 2011"
+# Platform = win32pe
+# 0    0x00762000: '<unknown (@0x762000)>'
+# 1    0x0076414e: '<unknown (@0x76414e)>'
+# 2    0x00764441: '<unknown (@0x764441)>'
+# 3    0x0076579f: '<unknown (@0x76579f)>'
+# 4    0x00766467: '<unknown (@0x766467)>'
+# 5    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000e0d6: 'Tcl_Eval + 0x16' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 10   0x00993961: '<unknown (@0x993961)>'
+# 11   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 12   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 15   0x00aa5dec: '<unknown (@0xaa5dec)>'
+# 16   0x00743361: '<unknown (@0x743361)>'
+# End of Stack Trace
+
+
+# Current time Thu May 16 13:27:17 2013
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.0c"
+# Version = "2011.09"
+# Date = "Sep 21 2011"
+# Platform = win32pe
+# 0    0x0075d859: '<unknown (@0x75d859)>'
+# 1    0x007608aa: '<unknown (@0x7608aa)>'
+# 2    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 3    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 4    0x1000e0d6: 'Tcl_Eval + 0x16' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 5    0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x00993961: '<unknown (@0x993961)>'
+# 7    0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 10   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x00aa5dec: '<unknown (@0xaa5dec)>'
+# 12   0x00743361: '<unknown (@0x743361)>'
+# End of Stack Trace
+
+
+# Current time Mon May 20 11:22:55 2013
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.0c"
+# Version = "2011.09"
+# Date = "Sep 21 2011"
+# Platform = win32pe
+# 0    0x10054639: 'Tcl_GetRegExpFromObj + 0x9' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 1    0x0076204b: '<unknown (@0x76204b)>'
+# 2    0x0076414e: '<unknown (@0x76414e)>'
+# 3    0x00764441: '<unknown (@0x764441)>'
+# 4    0x0076579f: '<unknown (@0x76579f)>'
+# 5    0x00766467: '<unknown (@0x766467)>'
+# 6    0x1000bdd4: 'TclInvokeStringCommand + 0x74' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1000c770: 'TclEvalObjvInternal + 0x230' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x1000dd77: 'Tcl_EvalEx + 0x167' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 9    0x1000e0d6: 'Tcl_Eval + 0x16' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 10   0x1000e53c: 'Tcl_GlobalEval + 0x1c' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 11   0x00993961: '<unknown (@0x993961)>'
+# 12   0x1003b375: 'Tcl_NotifyChannel + 0xd5' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 13   0x1006b4dd: 'TclpCreateProcess + 0xced' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 14   0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 15   0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\11.1sp1\modelsim_ase\win32aloem\tcl84.dll'
+# 16   0x00aa5dec: '<unknown (@0xaa5dec)>'
+# 17   0x00743361: '<unknown (@0x743361)>'
+# End of Stack Trace
+
+

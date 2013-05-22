@@ -1,0 +1,162 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 320 240)
+	(text "id_ex_reg" (rect 5 0 68 12)(font "Arial" ))
+	(text "inst" (rect 8 208 36 220)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "pc_in[15..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "pc_in[15..0]" (rect 21 27 105 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clock" (rect 0 0 35 12)(font "Arial" ))
+		(text "clock" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "aluB_sel_in[1..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "aluB_sel_in[1..0]" (rect 21 59 141 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "offset_in[15..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "offset_in[15..0]" (rect 21 75 134 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "ctrl_in[13..2]" (rect 0 0 99 12)(font "Arial" ))
+		(text "ctrl_in[13..2]" (rect 21 91 120 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "pc_sel_in[1..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "pc_sel_in[1..0]" (rect 21 107 127 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "aluA_sel_in" (rect 0 0 77 12)(font "Arial" ))
+		(text "aluA_sel_in" (rect 21 123 98 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "regA_data[15..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "regA_data[15..0]" (rect 21 139 134 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "regB_data[15..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "regB_data[15..0]" (rect 21 155 134 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "reset" (rect 0 0 35 12)(font "Arial" ))
+		(text "reset" (rect 21 171 56 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 304 32)
+		(output)
+		(text "regA_out[15..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "regA_out[15..0]" (rect 177 27 283 39)(font "Arial" ))
+		(line (pt 304 32)(pt 288 32)(line_width 3))
+	)
+	(port
+		(pt 304 48)
+		(output)
+		(text "regB_out[15..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "regB_out[15..0]" (rect 177 43 283 55)(font "Arial" ))
+		(line (pt 304 48)(pt 288 48)(line_width 3))
+	)
+	(port
+		(pt 304 64)
+		(output)
+		(text "PC_src[15..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "PC_src[15..0]" (rect 191 59 283 71)(font "Arial" ))
+		(line (pt 304 64)(pt 288 64)(line_width 3))
+	)
+	(port
+		(pt 304 80)
+		(output)
+		(text "offset_out[15..0]" (rect 0 0 120 12)(font "Arial" ))
+		(text "offset_out[15..0]" (rect 163 75 283 87)(font "Arial" ))
+		(line (pt 304 80)(pt 288 80)(line_width 3))
+	)
+	(port
+		(pt 304 96)
+		(output)
+		(text "alu_op[3..0]" (rect 0 0 84 12)(font "Arial" ))
+		(text "alu_op[3..0]" (rect 199 91 283 103)(font "Arial" ))
+		(line (pt 304 96)(pt 288 96)(line_width 3))
+	)
+	(port
+		(pt 304 112)
+		(output)
+		(text "pc_sel_out[1..0]" (rect 0 0 113 12)(font "Arial" ))
+		(text "pc_sel_out[1..0]" (rect 170 107 283 119)(font "Arial" ))
+		(line (pt 304 112)(pt 288 112)(line_width 3))
+	)
+	(port
+		(pt 304 128)
+		(output)
+		(text "aluA_sel_out" (rect 0 0 84 12)(font "Arial" ))
+		(text "aluA_sel_out" (rect 199 123 283 135)(font "Arial" ))
+		(line (pt 304 128)(pt 288 128)(line_width 1))
+	)
+	(port
+		(pt 304 144)
+		(output)
+		(text "aluB_sel_out[1..0]" (rect 0 0 127 12)(font "Arial" ))
+		(text "aluB_sel_out[1..0]" (rect 156 139 283 151)(font "Arial" ))
+		(line (pt 304 144)(pt 288 144)(line_width 3))
+	)
+	(port
+		(pt 304 160)
+		(output)
+		(text "cntl_out[13..2]" (rect 0 0 106 12)(font "Arial" ))
+		(text "cntl_out[13..2]" (rect 177 155 283 167)(font "Arial" ))
+		(line (pt 304 160)(pt 288 160)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 288 208)(line_width 1))
+	)
+)

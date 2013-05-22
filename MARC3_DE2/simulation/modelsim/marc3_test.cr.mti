@@ -1,0 +1,15 @@
+C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Loading package cycloneive_atom_pack
+-- Loading package cycloneive_components
+-- Compiling entity MARC3
+-- Compiling architecture structure of MARC3
+
+} {} {}}

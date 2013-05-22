@@ -1,0 +1,1193 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\paul.maxwell\Documents\MARC3_DE2\simulation\modelsim
+Ebit16_2_to_1_mux
+Z1 w1368105664
+Z2 DPx3 lpm 14 lpm_components 0 22 8^KMh7;8Da^oDjHX_6W442
+Z3 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\paul.maxwell\Documents\MARC3_DE2\simulation\modelsim
+Z6 8C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd
+Z7 FC:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd
+l0
+L42
+VW@R;ECc:W1oXm5eKmO@]<3
+Z8 OV;C;10.0c;49
+32
+Z9 !s108 1369239006.595000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd|
+Z11 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 e]NoNO1ai<n6kQA78LfA32
+Asyn
+R2
+R3
+R4
+DEx4 work 16 bit16_2_to_1_mux 0 22 W@R;ECc:W1oXm5eKmO@]<3
+l64
+L53
+VcBN7EFH;VlXTL=dciOOf^2
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 F1BImb?nLL;ATF2[IeBUP3
+Ebit_1
+Z14 w1368819463
+R3
+R4
+R5
+Z15 8C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd
+Z16 FC:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd
+l0
+L42
+V?5AnCV1VZ^lZTAYmQ@j@k3
+R8
+32
+Z17 !s108 1369239004.286000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd|
+Z19 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd|
+R12
+R13
+!s100 Kj;0kAF4kk6=DF8Sj5@3<3
+Asyn
+R3
+R4
+DEx4 work 5 bit_1 0 22 ?5AnCV1VZ^lZTAYmQ@j@k3
+l68
+L50
+VBX@:XO4IlfDYo1QHVH[Va3
+R8
+32
+R17
+R18
+R19
+R12
+R13
+!s100 C0>d5]Sdn^K7lK2K]>ElC1
+Econstant0
+Z20 w1368553728
+R3
+R4
+R5
+Z21 8C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd
+Z22 FC:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd
+l0
+L42
+VfzbeBK9G2e>e^5NmE?VNm2
+R8
+32
+Z23 !s108 1369239005.347000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd|
+Z25 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd|
+R12
+R13
+!s100 OaRj969>YM20_3nIaZ0aP1
+Asyn
+R3
+R4
+DEx4 work 9 constant0 0 22 fzbeBK9G2e>e^5NmE?VNm2
+l68
+L50
+V^He_QX9DW]`hnNEG<ko:l2
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 nbR;jfJf50EAAh:kQHEEJ0
+Econstant1
+Z26 w1368553814
+R3
+R4
+R5
+Z27 8C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd
+Z28 FC:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd
+l0
+L42
+VMIV]`<dQmMgE90_?6zz>32
+R8
+32
+Z29 !s108 1369239005.160000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd|
+Z31 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd|
+R12
+R13
+!s100 =443ld9eU1^Dd:m:iXCNE3
+Asyn
+R3
+R4
+DEx4 work 9 constant1 0 22 MIV]`<dQmMgE90_?6zz>32
+l68
+L50
+V>DPTf?L4nzSmj?1W?<o5>1
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!s100 nm@KACl:bQ_E_Im8HOKO:0
+Econtrolunit
+Z32 w1369233909
+Z33 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z34 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R3
+R4
+R5
+Z35 8C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd
+Z36 FC:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd
+l0
+L27
+V9MiBf7fd_CGz[`Agn>0_72
+R8
+32
+Z37 !s108 1369239001.821000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd|
+Z39 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd|
+R12
+R13
+!s100 A@dnNEoAGnJZ:IKFmF;;X3
+Acontrolunit
+R33
+R34
+R3
+R4
+DEx4 work 11 controlunit 0 22 9MiBf7fd_CGz[`Agn>0_72
+l57
+L41
+Vc2FKSjh0XezUo;cUb4>oW1
+R8
+32
+R37
+R38
+R39
+R12
+R13
+!s100 T2;08cDQUDY>@G7AoH6TS2
+Ecpu_chip
+Z40 w1354031768
+R34
+R33
+R3
+R4
+R5
+Z41 8C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd
+Z42 FC:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd
+l0
+L28
+V@UbX]GV_=zdF>bgQJh3PA1
+R8
+32
+Z43 !s108 1369239007.484000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd|
+Z45 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd|
+R12
+R13
+!s100 >Odg?hl1Y0F=8zRkbe<Zb3
+Abehavioral
+R34
+R33
+R3
+R4
+DEx4 work 8 cpu_chip 0 22 @UbX]GV_=zdF>bgQJh3PA1
+l98
+L38
+V9oO^nLV6BdnI7[e4HabLW3
+R8
+32
+R43
+R44
+R45
+R12
+R13
+!s100 Acn`6ETmT8IdmKMhMezB<0
+Ecpu_marc1
+Z46 w1353361504
+R33
+R34
+R3
+R4
+R5
+Z47 8C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd
+Z48 FC:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd
+l0
+L8
+VAYZKkeI?KS>Kk9lC0bKBR0
+R8
+32
+Z49 !s108 1369239007.656000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd|
+Z51 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd|
+R12
+R13
+!s100 _E^X]hWdSLz8hCfJmJdhT3
+Ait
+R33
+R34
+R3
+R4
+DEx4 work 9 cpu_marc1 0 22 AYZKkeI?KS>Kk9lC0bKBR0
+l66
+L22
+Vb4ORSFCzR7j^LjGdO0X5j2
+R8
+32
+R49
+R50
+R51
+R12
+R13
+!s100 oLUZ9JZ:ie^BfPka5GLZ<1
+Ede2_clock
+Z52 w1338838039
+R34
+R33
+R3
+R4
+R5
+Z53 8C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd
+Z54 FC:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd
+l0
+L7
+VcRM9I7W8INacmMnHFcV0D3
+!s100 lHj?dclTci]TkZDV5a1:S0
+R8
+32
+Z55 !s108 1369239007.765000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd|
+Z57 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd|
+R12
+R13
+Aa
+R34
+R33
+R3
+R4
+DEx4 work 9 de2_clock 0 22 cRM9I7W8INacmMnHFcV0D3
+l25
+L15
+V>CA;0UYA=bl2M]CYP]9kl1
+!s100 mURo4^RJZ`E<J`X=ZjLAk1
+R8
+32
+R55
+R56
+R57
+R12
+R13
+Edp_marc1
+Z58 w1368734722
+R33
+R34
+R3
+R4
+R5
+Z59 8C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd
+Z60 FC:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd
+l0
+L11
+V>VgdYDG@GLX@HZUnjK<AD1
+R8
+32
+Z61 !s108 1369239004.442000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd|
+Z63 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd|
+R12
+R13
+!s100 Gz<2nFoQoiR8SEl1aCL@01
+Adataflow
+R33
+R34
+R3
+R4
+DEx4 work 8 dp_marc1 0 22 >VgdYDG@GLX@HZUnjK<AD1
+l55
+L34
+VK?6SZhBZWzf3O?B]n8kLM0
+R8
+32
+R61
+R62
+R63
+R12
+R13
+!s100 Ri;gA42n0zD^4>8c00LHD3
+Eex_mem_reg
+Z64 w1369150451
+R3
+R4
+R5
+Z65 8C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd
+Z66 FC:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd
+l0
+L13
+Vm`8::GGCU2SGhRBEmGKDV3
+R8
+32
+Z67 !s108 1369239002.726000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd|
+Z69 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd|
+R12
+R13
+!s100 14F2@la^78SlS??6_IfRF3
+Aex_mem_reg
+R3
+R4
+DEx4 work 10 ex_mem_reg 0 22 m`8::GGCU2SGhRBEmGKDV3
+l36
+L35
+VkdkY`fDR2<7U;jQWj1eWC2
+R8
+32
+R67
+R68
+R69
+R12
+R13
+!s100 hMc8ln59HW>oDO[2h=0c^0
+Eforward_control
+Z70 w1355391006
+R33
+R34
+R3
+R4
+R5
+Z71 8C:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd
+Z72 FC:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd
+l0
+L14
+V08:Xen6H<[WJNAkAFWman0
+R8
+32
+Z73 !s108 1369239007.359000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd|
+Z75 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd|
+R12
+R13
+!s100 ILRAfASShm5ChR;zTjoDH2
+Aforward_control
+R33
+R34
+R3
+R4
+DEx4 work 15 forward_control 0 22 08:Xen6H<[WJNAkAFWman0
+l29
+L28
+V@einXGmDzjzTDU4e21_V=1
+R8
+32
+R73
+R74
+R75
+R12
+R13
+!s100 k3]n4>cPFH2hoQo1DcSjn0
+Efunction_unit
+Z76 w1369232589
+R33
+R34
+R3
+R4
+R5
+Z77 8C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd
+Z78 FC:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd
+l0
+L26
+V?VkZo<hza4BF9B:]Sl=>K1
+R8
+32
+Z79 !s108 1369239001.946000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd|
+Z81 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd|
+R12
+R13
+!s100 WBR^;UZnROJn0CK2nz5zP0
+Afunction_unit
+R33
+R34
+R3
+R4
+DEx4 work 13 function_unit 0 22 ?VkZo<hza4BF9B:]Sl=>K1
+l42
+L38
+VDo6oYg]]2E]VFT4zg]VL02
+R8
+32
+R79
+R80
+R81
+R12
+R13
+!s100 ;aP:S_5LVkknj[<9RonQz0
+Ehazard_detect
+Z82 w1355392558
+R33
+R34
+R3
+R4
+R5
+Z83 8C:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd
+Z84 FC:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd
+l0
+L13
+ViG;eV`j=A=Z5IzU_;>g:M3
+R8
+32
+Z85 !s108 1369239007.157000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd|
+Z87 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd|
+R12
+R13
+!s100 :_A9aI3=;1h2J`]l<BmMf3
+Ahazard_detect
+R33
+R34
+R3
+R4
+DEx4 work 13 hazard_detect 0 22 iG;eV`j=A=Z5IzU_;>g:M3
+l28
+L27
+V]5`28[jm<JA@LKmL5LW:W0
+R8
+32
+R85
+R86
+R87
+R12
+R13
+!s100 6O6T6>WU<L?CaiOn5eRmk3
+Eid_ex_reg
+Z88 w1369150386
+R3
+R4
+R5
+Z89 8C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd
+Z90 FC:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd
+l0
+L13
+V5BPl:3NX9aWZbl]KQ7c:43
+R8
+32
+Z91 !s108 1369239002.898000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd|
+Z93 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd|
+R12
+R13
+!s100 _B8diNMLc:k<QC78X[>hU0
+Aid_ex_reg
+R3
+R4
+DEx4 work 9 id_ex_reg 0 22 5BPl:3NX9aWZbl]KQ7c:43
+l38
+L37
+Vd248Q]zY[V_m=Tzcb@Q@L3
+R8
+32
+R91
+R92
+R93
+R12
+R13
+!s100 Jcjfh3^S]GR<WzDFBM9JJ2
+Eif_id_reg
+Z94 w1369077272
+R3
+R4
+R5
+Z95 8C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd
+Z96 FC:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd
+l0
+L13
+Vl8^31_Rn2QmkUiF@Gh:d[2
+R8
+32
+Z97 !s108 1369239003.522000
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd|
+Z99 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd|
+R12
+R13
+!s100 U3[<hK^XP03=_GOJWJ2hV0
+Aif_id_reg
+R3
+R4
+DEx4 work 9 if_id_reg 0 22 l8^31_Rn2QmkUiF@Gh:d[2
+l28
+L27
+VkhmEf07OH`@V2Cl<;Uo2J3
+R8
+32
+R97
+R98
+R99
+R12
+R13
+!s100 4VA41l_G`Xj6=F3z:QiFS1
+Elcd_mux
+Z100 w1368214109
+R2
+R3
+R4
+R5
+Z101 8C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd
+Z102 FC:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd
+l0
+L42
+VSWoU_^Sb9id][mQ2T;Wd=0
+R8
+32
+Z103 !s108 1369239005.612000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd|
+Z105 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd|
+R12
+R13
+!s100 ES@4fXbl_7K=jk4nC=md]3
+Asyn
+R2
+R3
+R4
+DEx4 work 7 lcd_mux 0 22 SWoU_^Sb9id][mQ2T;Wd=0
+l72
+L58
+VoVD=A^FeI@F[G0GbV=Ac93
+R8
+32
+R103
+R104
+R105
+R12
+R13
+!s100 <njW>gE72gc>TajBK^N?o0
+Emarc3
+Z106 w1368708753
+Z107 DPx6 altera 21 altera_syn_attributes 0 22 fTYL6H]ZgaVgLOC:ngm>b1
+R3
+R4
+R5
+Z108 8C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd
+Z109 FC:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd
+l0
+L20
+V0zYz5DVEXEPRL`A8[G<l81
+R8
+32
+Z110 !s108 1369239004.723000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd|
+Z112 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd|
+R12
+R13
+!s100 J>^15TTfgHjBWVb2cDGLI3
+Appl_type
+R107
+R3
+R4
+DEx4 work 5 marc3 0 22 0zYz5DVEXEPRL`A8[G<l81
+l38
+L36
+V9ioHkWDGH[:]CT?H3:oI]3
+R8
+32
+R110
+R111
+R112
+R12
+R13
+!s100 RQDI0j`CF:`kY<>mfAM;X2
+Astructure
+DPx10 cycloneive 20 cycloneive_atom_pack 0 22 o1R38HVMn[SE4UeTMVZCm1
+DPx10 cycloneive 21 cycloneive_components 0 22 DPT?b^WKV@PW?kKhFJ15g3
+Z113 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+DPx6 altera 11 dffeas_pack 0 22 <>LGN2HBgbIHaklj`n9^R1
+Z114 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+R3
+R4
+DPx6 altera 28 altera_primitives_components 0 22 DYfIPb2DD]?<>^1:7T<AB3
+DEx4 work 5 marc3 0 22 `UGK3e6X=YekXKH^Vdo[P0
+l2574
+L79
+VGmgk6K4HBLXc4[Bi<7Q8K3
+R8
+32
+R12
+R13
+FC:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+w1369233973
+8C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+!s108 1369239000.776000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho|
+!s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho|
+!s100 4dzYa^o783YElDMgQYe0J0
+Emem_wb_reg
+Z115 w1369150723
+R3
+R4
+R5
+Z116 8C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd
+Z117 FC:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd
+l0
+L13
+VZ040;am7I0TnzWXkPleQm1
+R8
+32
+Z118 !s108 1369239002.555000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd|
+Z120 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd|
+R12
+R13
+!s100 ?MTG5>H9zkc3_C9[Ei[IZ1
+Amem_wb_reg
+R3
+R4
+DEx4 work 10 mem_wb_reg 0 22 Z040;am7I0TnzWXkPleQm1
+l30
+L29
+VfdJeTYM6Jf5B21EJjN^VX0
+R8
+32
+R118
+R119
+R120
+R12
+R13
+!s100 aVcMU?Lzk7Vd;9C6O7?>=1
+Emux3bit_2_to_1
+Z121 w1368210389
+R2
+R3
+R4
+R5
+Z122 8C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd
+Z123 FC:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd
+l0
+L42
+V@B7TBOF0YUVo]Qk?QR9HZ1
+R8
+32
+Z124 !s108 1369239005.971000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd|
+Z126 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd|
+R12
+R13
+!s100 ?]ZATLiS=9?HV0iD1m`1W0
+Asyn
+R2
+R3
+R4
+DEx4 work 14 mux3bit_2_to_1 0 22 @B7TBOF0YUVo]Qk?QR9HZ1
+l64
+L53
+Vk2dVmIlJHS>c8BDY11`EJ2
+R8
+32
+R124
+R125
+R126
+R12
+R13
+!s100 KHIDkM<VKQLgfP@YK96OV2
+Epc_adder
+Z127 w1367863377
+R3
+R4
+R5
+Z128 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd
+Z129 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd
+l0
+L42
+VY0a3KNA_fNMSkje8:APXf2
+R8
+32
+Z130 !s108 1369239006.845000
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd|
+Z132 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd|
+R12
+R13
+!s100 R2CNIbVXdPnlG]MKI[^ez1
+Asyn
+R3
+R4
+DEx4 work 8 pc_adder 0 22 Y0a3KNA_fNMSkje8:APXf2
+l74
+L51
+VcU`Zi>Oic_4DiVF1HbVQ61
+R8
+32
+R130
+R131
+R132
+R12
+R13
+!s100 lIFzjOU?FF7lJEIlVZoOb1
+Epc_displ_adder
+Z133 w1368105833
+R3
+R4
+R5
+Z134 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd
+Z135 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd
+l0
+L42
+VOTR9bX<Ned<[0]K>=:>BE0
+R8
+32
+Z136 !s108 1369239006.408000
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd|
+Z138 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd|
+R12
+R13
+!s100 7BZJb^CeYPJ`g@EUoII5o2
+Asyn
+R3
+R4
+DEx4 work 14 pc_displ_adder 0 22 OTR9bX<Ned<[0]K>=:>BE0
+l73
+L52
+VX>jQ98R12oGWQikJZFaSo3
+R8
+32
+R136
+R137
+R138
+R12
+R13
+!s100 @]?7<5i`;Qo[GMAiFfLYe3
+Epc_mux
+Z139 w1368204283
+R2
+R3
+R4
+R5
+Z140 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd
+Z141 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd
+l0
+L42
+VeWkOj1okGh2MomQ:8X^jZ1
+R8
+32
+Z142 !s108 1369239006.096000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd|
+Z144 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd|
+R12
+R13
+!s100 5T<o[?<fWNM:3XK^W9WOL1
+Asyn
+R2
+R3
+R4
+DEx4 work 6 pc_mux 0 22 eWkOj1okGh2MomQ:8X^jZ1
+l66
+L55
+Vc2GIWe;i:@@AzPRk6NfLH2
+R8
+32
+R142
+R143
+R144
+R12
+R13
+!s100 PG_WlLZX7VTEWaaC_g2Fg3
+Epc_reg
+Z145 w1369075412
+R3
+R4
+R5
+Z146 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd
+Z147 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd
+l0
+L22
+VZ]APid5aQko[GREH7]bV<1
+R8
+32
+Z148 !s108 1369239003.771000
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd|
+Z150 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd|
+R12
+R13
+!s100 ]NGebSK[8AQI=Nc?0J=_S0
+Apc16bit
+R3
+R4
+DEx4 work 6 pc_reg 0 22 Z]APid5aQko[GREH7]bV<1
+l36
+L32
+Vh8YCHzmODZ<LV6bG]^j3g2
+R8
+32
+R148
+R149
+R150
+R12
+R13
+!s100 f`>:?V::<_o]Q4FaE<f5Y0
+Epc_sel_control
+Z151 w1369230443
+R3
+R4
+R5
+Z152 8C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd
+Z153 FC:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd
+l0
+L13
+VCEMmlbIN2^Rj>PQgb[oHT1
+R8
+32
+Z154 !s108 1369239002.040000
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd|
+Z156 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd|
+R12
+R13
+!s100 X[PFe7f1@BOeWo^Ra`Zi_2
+Apc_sel
+R3
+R4
+DEx4 work 14 pc_sel_control 0 22 CEMmlbIN2^Rj>PQgb[oHT1
+l33
+L29
+VO]ORVFHL`NFTnI3nFCdL93
+R8
+32
+R154
+R155
+R156
+R12
+R13
+!s100 ^Xo<OGZ[2B^Di;eeK?6Hb0
+Erefreshcounter
+Z157 w1367600271
+R3
+R4
+R5
+Z158 8C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd
+Z159 FC:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd
+l0
+L42
+V7=4W3<[OmgQ_leS?WaYf51
+R8
+32
+Z160 !s108 1369239007.032000
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd|
+Z162 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd|
+R12
+R13
+!s100 _ZB?QBOH:SoML>N1n^14U1
+Asyn
+R3
+R4
+DEx4 work 14 refreshcounter 0 22 7=4W3<[OmgQ_leS?WaYf51
+l73
+L52
+VheJ:_<V:zdUnF[Z1eb[F83
+R8
+32
+R160
+R161
+R162
+R12
+R13
+!s100 17DQLiN?lK82d]QnBOIMV2
+Ereg16bit
+Z163 w1368729941
+R3
+R4
+R5
+Z164 8C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd
+Z165 FC:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd
+l0
+L24
+VP1EIJiX:g:0eJ=YAXdTka3
+R8
+32
+Z166 !s108 1369239004.583000
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd|
+Z168 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd|
+R12
+R13
+!s100 mdD3MdgPTY:7k3HH5FELK0
+Areg16bit
+R3
+R4
+DEx4 work 8 reg16bit 0 22 P1EIJiX:g:0eJ=YAXdTka3
+l36
+L35
+Vf189zF[a@9:2ZnmH77lIW1
+R8
+32
+R166
+R167
+R168
+R12
+R13
+!s100 :Tz4_2e4jII[_OddeX;:42
+Ereset_vector
+Z169 w1368554989
+R3
+R4
+R5
+Z170 8C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd
+Z171 FC:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd
+l0
+L42
+VT98ADJ12nYNhP;`;93k3@2
+R8
+32
+Z172 !s108 1369239004.957000
+Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd|
+Z174 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd|
+R12
+R13
+!s100 78_0:ZO[gN6WU`ESDXT3U0
+Asyn
+R3
+R4
+DEx4 work 12 reset_vector 0 22 T98ADJ12nYNhP;`;93k3@2
+l68
+L50
+V@J_e[H3>b9V6XF]?l:Y2Y0
+R8
+32
+R172
+R173
+R174
+R12
+R13
+!s100 ICNe26AcAaT9bLR4gl>DQ1
+Ereset_vector1
+Z175 w1369055091
+R3
+R4
+R5
+Z176 8C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd
+Z177 FC:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd
+l0
+L13
+VDJkY@nP3=lKSB3J_3Yi2`2
+R8
+32
+Z178 !s108 1369239004.068000
+Z179 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd|
+Z180 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd|
+R12
+R13
+!s100 4>kJj0WPfb>@W?A<1];3W1
+Arvector
+R3
+R4
+DEx4 work 13 reset_vector1 0 22 DJkY@nP3=lKSB3J_3Yi2`2
+l20
+L19
+VM9N13UFb3gWJ[OkH0oMM]0
+R8
+32
+R178
+R179
+R180
+R12
+R13
+!s100 SM=VN_b<YU:R<jngF:[l<2
+Esp_reg
+Z181 w1369059128
+R3
+R4
+R5
+Z182 8C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd
+Z183 FC:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd
+l0
+L22
+V9i^L@l7PZd@UjK5mA35MK3
+R8
+32
+Z184 !s108 1369239003.881000
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd|
+Z186 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd|
+R12
+R13
+!s100 a:>eOKbY6EMo3?5Fg9ADn1
+Asp16bit
+R3
+R4
+DEx4 work 6 sp_reg 0 22 9i^L@l7PZd@UjK5mA35MK3
+l34
+L33
+V9lVQLTjVD6k?bW^n8Qb@;0
+R8
+32
+R184
+R185
+R186
+R12
+R13
+!s100 f^OT`fk1Rk9KzobnW<4EK3
+Esp_sub
+Z187 w1368212934
+R3
+R4
+R5
+Z188 8C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd
+Z189 FC:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd
+l0
+L42
+VaaH>A=dFE5TIA1=5b3;L12
+R8
+32
+Z190 !s108 1369239005.721000
+Z191 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd|
+Z192 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd|
+R12
+R13
+!s100 aSM2N1gi6Oa5FC;]RPkL_1
+Asyn
+R3
+R4
+DEx4 work 6 sp_sub 0 22 aaH>A=dFE5TIA1=5b3;L12
+l74
+L51
+V2PjRB^NQb3zDlHBbl_>HS2
+R8
+32
+R190
+R191
+R192
+R12
+R13
+!s100 feeGlg7m`hd3M]T@O7S<?0
+Esystemram
+Z193 w1369139365
+R3
+R4
+R5
+Z194 8C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd
+Z195 FC:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd
+l0
+L42
+VSBm]Y9GF[?Q3dlgaDL8P;2
+R8
+32
+Z196 !s108 1369239003.163000
+Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd|
+Z198 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd|
+R12
+R13
+!s100 6fDF:5eI<WZWP3<@b=9C81
+Asyn
+R3
+R4
+DEx4 work 9 systemram 0 22 SBm]Y9GF[?Q3dlgaDL8P;2
+l86
+L54
+VYeMQ7S2mDhiNUSDZ50lnC0
+R8
+32
+R196
+R197
+R198
+R12
+R13
+!s100 jhR?3A][6h3ha3=MO;LPb3
+Esystemrom
+Z199 w1369139183
+R3
+R4
+R5
+Z200 8C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd
+Z201 FC:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd
+l0
+L42
+V^22zg6:bWBHQfEYN3;zb40
+R8
+32
+Z202 !s108 1369239003.413000
+Z203 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd|
+Z204 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd|
+R12
+R13
+!s100 Oo_O`Eg28Hf8M`_FEL]<=3
+Asyn
+R3
+R4
+DEx4 work 9 systemrom 0 22 ^22zg6:bWBHQfEYN3;zb40
+l82
+L52
+VUmESjGOU0d6RGHeQbHLMV3
+R8
+32
+R202
+R203
+R204
+R12
+R13
+!s100 :ZcT;]IzVK8MZUf2NG`8@1
+Ewb_sel_control
+Z205 w1369230299
+R3
+R4
+R5
+Z206 8C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd
+Z207 FC:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd
+l0
+L13
+Ve^KGR0EdWKmMK<[LV2UEX1
+R8
+32
+Z208 !s108 1369239002.165000
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd|
+Z210 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd|
+R12
+R13
+!s100 1eeWG7J?EH^^c?PSzH5EP1
+Awb_sel
+R3
+R4
+DEx4 work 14 wb_sel_control 0 22 e^KGR0EdWKmMK<[LV2UEX1
+l26
+L24
+V]d7OM<1l@1K;;?Phel2VE1
+R8
+32
+R208
+R209
+R210
+R12
+R13
+!s100 oS^P]ON^38:oTLG_TLOaZ2
+Ex16bit_4_to_1_mux
+Z211 w1369155317
+R3
+R4
+R5
+Z212 8C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd
+Z213 FC:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd
+l0
+L29
+V>mF@1k^gCZ>RW]01FS=Xn1
+R8
+32
+Z214 !s108 1369239002.430000
+Z215 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd|
+Z216 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd|
+R12
+R13
+!s100 akofSX>LBAHzd:9NmWCA83
+Ax16bit_4_to_1_mux
+R3
+R4
+DEx4 work 17 x16bit_4_to_1_mux 0 22 >mF@1k^gCZ>RW]01FS=Xn1
+l50
+L47
+Vn149GaE^3a1KLW_>kYM902
+R8
+32
+R214
+R215
+R216
+R12
+R13
+!s100 57Ue3LGWhf<XBWf]<Rf<73

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MARC3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|bit16_2_to_1_mux:inst8|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_89e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|LCD_mux:inst27|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_f9e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|constant0:inst18|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_9k6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|constant1:inst22|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|mux3bit_2_to_1:inst19|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_k7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|systemram:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lbi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_1uh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_ajh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|bit16_2_to_1_mux:inst15|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_89e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MARC3|systemrom:inst9|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_p6d1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

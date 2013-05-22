@@ -1,0 +1,53 @@
+# Compile of MARC3.vho was successful.
+# Load canceled
+# Compile of MARC3.vho was successful.
+# Compile of controlunit.vhd was successful.
+# Compile of function_unit.vhd was successful.
+# Compile of pc_sel_control.vhd was successful.
+# Compile of wb_sel_control.vhd was successful.
+# Compile of X16bit_4_to_1_mux.vhd was successful.
+# Compile of mem_wb_reg.vhd was successful.
+# Compile of ex_mem_reg.vhd was successful.
+# Compile of id_ex_reg.vhd was successful.
+# Compile of systemram_inst.vhd failed with 1 errors.
+# Compile of systemram.vhd was successful.
+# Compile of systemrom_inst.vhd failed with 1 errors.
+# Compile of systemrom.vhd was successful.
+# Compile of if_id_reg.vhd was successful.
+# Compile of PC_reg.vhd was successful.
+# Compile of sp_reg.vhd was successful.
+# Compile of reset_vector1.vhd was successful.
+# Compile of bit_1_inst.vhd failed with 1 errors.
+# Compile of bit_1.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of reg16bit.vhd was successful.
+# Compile of MARC3.vhd was successful.
+# Compile of reset_vector.vhd was successful.
+# Compile of reset_vector_inst.vhd failed with 1 errors.
+# Compile of constant1.vhd was successful.
+# Compile of constant1_inst.vhd failed with 1 errors.
+# Compile of constant0.vhd was successful.
+# Compile of constant0_inst.vhd failed with 1 errors.
+# Compile of LCD_mux_inst.vhd failed with 1 errors.
+# Compile of LCD_mux.vhd was successful.
+# Compile of sp_sub.vhd was successful.
+# Compile of sp_sub_inst.vhd failed with 1 errors.
+# Compile of mux3bit_2_to_1_inst.vhd failed with 1 errors.
+# Compile of mux3bit_2_to_1.vhd was successful.
+# Compile of PC_mux.vhd was successful.
+# Compile of PC_mux_inst.vhd failed with 1 errors.
+# Compile of PC_displ_adder.vhd was successful.
+# Compile of PC_displ_adder_inst.vhd failed with 1 errors.
+# Compile of bit16_2_to_1_mux.vhd was successful.
+# Compile of bit16_2_to_1_mux_inst.vhd failed with 1 errors.
+# Compile of PC_adder_inst.vhd failed with 1 errors.
+# Compile of PC_adder.vhd was successful.
+# Compile of refreshcounter_inst.vhd failed with 1 errors.
+# Compile of refreshcounter.vhd was successful.
+# Compile of hazard_detect.vhd was successful.
+# Compile of forward_control.vhd was successful.
+# Compile of CPU_chip.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of DE2_CLOCK.vhd was successful.
+# 49 compiles, 14 failed with 14 errors. 
+# Load canceled

@@ -1,0 +1,378 @@
+C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU_chip.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CPU_chip
+-- Compiling architecture Behavioral of CPU_chip
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity PC_mux
+-- Compiling architecture SYN of pc_mux
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter_inst.vhd(1): near "refreshcounter_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/forward_control.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity forward_control
+-- Compiling architecture forward_control of forward_control
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_1
+-- Compiling architecture SYN of bit_1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0_inst.vhd(1): near "constant0_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder_inst.vhd(1): near "PC_adder_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom_inst.vhd(1): near "systemrom_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex_mem_reg
+-- Compiling architecture ex_mem_reg of ex_mem_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux_inst.vhd(1): near "LCD_mux_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector_inst.vhd(1): near "reset_vector_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg16bit
+-- Compiling architecture reg16bit of reg16bit
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity LCD_mux
+-- Compiling architecture SYN of lcd_mux
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1_inst.vhd(1): near "mux3bit_2_to_1_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reset_vector1
+-- Compiling architecture rvector of reset_vector1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_syn_attributes
+-- Compiling entity MARC3
+-- Compiling architecture ppl_type of MARC3
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/refreshcounter.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity refreshcounter
+-- Compiling architecture SYN of refreshcounter
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1_inst.vhd(1): near "constant1_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity bit16_2_to_1_mux
+-- Compiling architecture SYN of bit16_2_to_1_mux
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/hazard_detect.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity hazard_detect
+-- Compiling architecture hazard_detect of hazard_detect
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity wb_sel_control
+-- Compiling architecture wb_sel of wb_sel_control
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity function_unit
+-- Compiling architecture function_unit of function_unit
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_displ_adder
+-- Compiling architecture SYN of pc_displ_adder
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity id_ex_reg
+-- Compiling architecture id_ex_reg of id_ex_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pc_sel_control
+-- Compiling architecture pc_sel of pc_sel_control
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity mux3bit_2_to_1
+-- Compiling architecture SYN of mux3bit_2_to_1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity if_id_reg
+-- Compiling architecture if_id_reg of if_id_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram_inst.vhd(1): near "systemram_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity constant0
+-- Compiling architecture SYN of constant0
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_adder
+-- Compiling architecture SYN of pc_adder
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Loading package cycloneive_atom_pack
+-- Loading package cycloneive_components
+-- Compiling entity MARC3
+-- Compiling architecture structure of MARC3
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sp_reg
+-- Compiling architecture sp16bit of sp_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mem_wb_reg
+-- Compiling architecture mem_wb_reg of mem_wb_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity X16bit_4_to_1_mux
+-- Compiling architecture X16bit_4_to_1_mux of X16bit_4_to_1_mux
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reset_vector
+-- Compiling architecture SYN of reset_vector
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DE2_CLOCK
+-- Compiling architecture a of DE2_CLOCK
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity controlunit
+-- Compiling architecture controlunit of controlunit
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity systemrom
+-- Compiling architecture SYN of systemrom
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity systemram
+-- Compiling architecture SYN of systemram
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PC_reg
+-- Compiling architecture pc16bit of PC_reg
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub_inst.vhd(1): near "sp_sub_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder_inst.vhd(1): near "PC_displ_adder_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity constant1
+-- Compiling architecture SYN of constant1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/bit_1_inst.vhd(1): near "bit_1_inst": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_sub.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sp_sub
+-- Compiling architecture SYN of sp_sub
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DP_MARC1
+-- Compiling architecture dataflow of DP_MARC1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux_inst.vhd(1): near "bit16_2_to_1_mux_ins": syntax error
+
+} {4.0 5.0} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd {1 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/CPU.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity CPU_MARC1
+-- Compiling architecture it of CPU_MARC1
+
+} {} {}} C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux_inst.vhd {0 {vcom -work work -2002 -explicit C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux_inst.vhd
+Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+-- Loading package STANDARD
+** Error: C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_mux_inst.vhd(1): near "PC_mux_inst": syntax error
+
+} {4.0 5.0} {}}
