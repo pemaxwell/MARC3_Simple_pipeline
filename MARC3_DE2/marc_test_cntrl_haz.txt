@@ -1,0 +1,24 @@
+;test program to demonstrate a control hazard on a MARC3 simple pipelined processor
+;written by LTC Maxwell, 22 May 2013
+;use the MARASM assembler to generate .mif file for use in Quartus II
+
+;main program starting at reset vector
+origin	0x0080
+start:	sethi	R5, 0x40		;R5 <= 0x4000
+		addi	R4, 0x02		;R4 <= 0x0002
+loop:	addi	R1, 0x01		;R1 <= 0x0001
+		nop
+		nop
+		nop
+		nop
+		subx	R3, R1, R4		;R3 <= R1 - R4 
+		bn		loop			;branch to loop if negative
+		addx	R4, R4, R5		;R4 <= R4 + R5
+		jmp		dest1			;change locations
+		addx	R4, R4, R1		;R4 <= R4 + R1
+		nop
+		nop
+		nop
+dest1:	andx	R5, R5, R1		;R5 <= R5 and R1
+		ba		loop
+		

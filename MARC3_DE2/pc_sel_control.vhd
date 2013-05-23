@@ -21,7 +21,8 @@ entity pc_sel_control is
 		-- Output ports
 		pc_sel : out std_logic_vector(1 downto 0);		-- control bits for the next PC value in IF stage
 		--sp_sel : out std_logic;								-- select SP or SP-1 for next SP
-		sp_wr_en : out std_logic							-- write enable for SP
+		sp_wr_en : out std_logic;							-- write enable for SP
+		ret_op_in : in std_logic							-- input bit for return instruction indicator
 	);
 end pc_sel_control;
 
@@ -34,13 +35,14 @@ begin
 
 	branch <= '1' when (ctrl_wd(13 downto 12)= "00" AND ctrl_wd(8 downto 5) = "0111") else		--jmp
 				 '1' when (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "0100") else		--ba
-				 '1' when (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "0101") else		--bn
-				 '1' when (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "0110") else		--bz
+				 '1' when (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "0101" AND negative = '1') else	--bn
+				 '1' when (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 4) = "01100" AND zero = '1') else		--bz
 				 '1' when (ctrl_wd(13) = '1') else																--call
 				 '0';
 					 
 	pc_sel <= "11" when reset = '0' else
-				 "10" when reset = '1' AND (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "1110") else	--handle return instruction
+				 --"10" when reset = '1' AND (ctrl_wd(13 downto 12)= "01" AND ctrl_wd(8 downto 5) = "1110") else	--handle return instruction
+				 "10" when ret_op_in = '1' else							-- handle ret instr. during WB stage
 				 "01" when reset = '1' AND branch = '1' else			-- handle call, jmp, ba, bn, bz instructions
 				 "00";
 	

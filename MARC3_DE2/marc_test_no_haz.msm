@@ -4,31 +4,57 @@
 
 ;data for testing the load instruction
 origin	0x03
-word	0x000f
+		word	0x000f
 
 ;main program starting at reset vector
 origin	0x0080
-sethi	R1, 0x02		;R1 <= 0x0200
-addi	R2, 0x03		;R2 <= 0x0003
-notx	R3, R3			;R3 <= 0xFFFF
-nop
-nop
-jmp		R1				;PC <= 0x0200
+		sethi	R1, 0x02		;R1 <= 0x0200
+		addi	R2, 0x03		;R2 <= 0x0003
+		notx	R3, R3			;R3 <= 0xFFFF
+		nop
+		nop
+		jmp		R1				;PC <= 0x0200
 
 ;jump location to test branching
 origin	0x0200
-st		[R2], R3		;mem[0x03] = 0xffff
-sllx	R5, R1			;R5 <= 0x0400
-srlx	R6, R1			;R6 <= 0x0100
-addx	R7, R1, R2		;R7 <= 0x0203
-andx	R4, R3, R2		;R4 <= 0x0003
-orx		R3, R2, R1		;R2 <= 0x0203
-subx	R5, R5, R6		;R5 <= 0x0300
-ld		R6, [R2]		;R6 <= mem[0x0003] <= 0xffff
-call	0x0300			;PC <= 0x0300, SP<=0x0209
-hlt						;stop ops, go reset
+		st		[R2], R3		;mem[0x03] = 0xffff
+		sllx	R5, R1			;R5 <= 0x0400
+		srlx	R6, R1			;R6 <= 0x0100
+		addx	R7, R1, R2		;R7 <= 0x0203
+		andx	R4, R3, R2		;R4 <= 0x0003
+		orx		R3, R2, R1		;R2 <= 0x0203
+		subx	R5, R5, R6		;R5 <= 0x0300
+		ld		R6, [R2]		;R6 <= mem[0x0003] <= 0xffff
+		subx	R7, R7, R7		;R7 <= 0
+		bz		dest1			;branch to dest1 if zero
+		addi	R1, 0x01		;R1 <= R1 + 1  dummies to test branch
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+dest1:	ba		dest2			;branch always to dest2
+		addi	R2, 0x01		;R2 <= R2 + 1 dummies to test branch
+		addi	R2, 0x01		;R2 <= R2 + 1
+		addi	R2, 0x01		;R2 <= R2 + 1
+		addi	R2, 0x01		;R2 <= R2 + 1
+		addi	R2, 0x01		;R2 <= R2 + 1
+		addi	R2, 0x01		;R2 <= R2 + 1
+		addi	R2, 0x01		;R2 <= R2 + 1
+dest2:	subx	R7, R6, R5		;R7 <= -0x0200
+		bn		dest3			;branch if negative to dest3		
+		addi	R1, 0x01		;R1 <= R1 + 1  dummies to test branch
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+		addi	R1, 0x01		;R1 <= R1 + 1
+dest3:	call	0x0300			;PC <= 0x0300, SP<=0x0209
+		hlt						;stop ops, go reset
 
 ;function call destination address
 origin 0x0300
-ret						;PC <= SP = 0x0209
+		ret						;PC <= SP = 0x0209
 

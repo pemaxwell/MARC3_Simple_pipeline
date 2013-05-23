@@ -1,0 +1,38 @@
+Marasm for MARC2 Version 1.4 (c) 2011 COL Gene Ressler
+Assembled 15:04:29 on Wednesday 22-5-2013 from marc_test_cntrl_haz.msm
+
+          Fields                ;test program to demonstrate a control hazard on a MARC3 simple pipelined processor
+          0DO12                 
+          1DOIm                 
+Addr Word 2 Af  Disassembly     
+                                ;written by LTC Maxwell, 22 May 2013
+                                ;use the MARASM assembler to generate .mif file for use in Quartus II
+                                
+                                ;main program starting at reset vector
+                                origin	0x0080
+0080 6f40 15740 sethi r5, 64    start:	sethi	R5, 0x40		;R5 <= 0x4000
+0081 6302 14302 addi r4, 2      		addi	R4, 0x02		;R4 <= 0x0002
+0082 4b01 11301 addi r1, 1      loop:	addi	R1, 0x01		;R1 <= 0x0001
+0083 0500 00a00 nop             		nop
+0084 0500 00a00 nop             		nop
+0085 0500 00a00 nop             		nop
+0086 0500 00a00 nop             		nop
+0087 1c98 03914 subx r3, r1, r4 		subx	R3, R1, R4		;R3 <= R1 - R4 
+0088 45f9 105f9 bn -7           		bn		loop			;branch to loop if negative
+0089 234a 04645 addx r4, r4, r5 		addx	R4, R4, R5		;R4 <= R4 + R5
+008a 4404 10404 ba 4            		ba		dest1			;change locations
+008b 2342 04641 addx r4, r4, r1 		addx	R4, R4, R1		;R4 <= R4 + R1
+008c 0500 00a00 nop             		nop
+008d 0500 00a00 nop             		nop
+008e 0500 00a00 nop             		nop
+008f 2ad2 05551 andx r5, r5, r1 dest1:	andx	R5, R5, R1		;R5 <= R5 and R1
+0090 44f1 104f1 ba -15          		ba		loop
+                                		
+
+------------------------------------------------------------------------------
+Symbol Table (alpha order)
+------------------------------------------------------------------------------
+                            dest1 008f                               loop 0082
+                            start 0080
+------------------------------------------------------------------------------
+There are 3 symbols.

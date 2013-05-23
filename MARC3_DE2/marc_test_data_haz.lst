@@ -1,0 +1,27 @@
+Marasm for MARC2 Version 1.4 (c) 2011 COL Gene Ressler
+Assembled 15:03:49 on Wednesday 22-5-2013 from marc_test_data_haz.msm
+
+          Fields                ;test program to demonstrate a data hazard on a MARC3 simple pipelined processor
+          0DO12                 
+          1DOIm                 
+Addr Word 2 Af  Disassembly     
+                                ;written by LTC Maxwell, 22 May 2013
+                                ;use the MARASM assembler to generate .mif file for use in Quartus II
+                                
+                                ;main program starting at reset vector
+                                origin	0x0080
+0080 63ba 143ba addi r4, -70    start:	addi	R4, 0xBA		;R4 <= 0x00BA
+0081 4f02 11702 sethi r1, 2     		sethi	R1, 0x02		;R1 <= 0x0200
+0082 5303 12303 addi r2, 3      		addi	R2, 0x03		;R2 <= 0x0003
+0083 2418 04814 orx r4, r1, r4  		orx		R4, R1, R4		;R4 <= R1 or R4 = 0x02BA 
+0084 1c94 03912 subx r3, r1, r2 		subx	R3, R1, R2		;R3 <= R1 - R2 = 0x01FD
+0085 0500 00a00 nop             		nop
+0086 0500 00a00 nop             		nop
+0087 44f8 104f8 ba -8           		ba		start			;branch to start
+
+------------------------------------------------------------------------------
+Symbol Table (alpha order)
+------------------------------------------------------------------------------
+                            start 0080
+------------------------------------------------------------------------------
+There are 1 symbols.

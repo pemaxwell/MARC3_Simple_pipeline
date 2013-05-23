@@ -1,5 +1,5 @@
 Marasm for MARC2 Version 1.4 (c) 2011 COL Gene Ressler
-Assembled 14:29:36 on Tuesday 21-5-2013 from marc_test_no_haz.msm
+Assembled 15:22:08 on Wednesday 22-5-2013 from marc_test_no_haz.msm
 
           Fields                ;test program to test instructions of the MARC processor
           0DO12                 
@@ -10,36 +10,64 @@ Addr Word 2 Af  Disassembly
                                 
                                 ;data for testing the load instruction
                                 origin	0x03
-0003 000f                       word	0x000f
+0003 000f                       		word	0x000f
                                 
                                 ;main program starting at reset vector
                                 origin	0x0080
-0080 4f02 11702 sethi r1, 2     sethi	R1, 0x02		;R1 <= 0x0200
-0081 5303 12303 addi r2, 3      addi	R2, 0x03		;R2 <= 0x0003
-0082 1a30 03430 notx r3, r3     notx	R3, R3			;R3 <= 0xFFFF
-0083 0500 00a00 nop             nop
-0084 0500 00a00 nop             nop
-0085 0382 00701 jmp r1          jmp		R1				;PC <= 0x0200
+0080 4f02 11702 sethi r1, 2     		sethi	R1, 0x02		;R1 <= 0x0200
+0081 5303 12303 addi r2, 3      		addi	R2, 0x03		;R2 <= 0x0003
+0082 1a30 03430 notx r3, r3     		notx	R3, R3			;R3 <= 0xFFFF
+0083 0500 00a00 nop             		nop
+0084 0500 00a00 nop             		nop
+0085 0382 00701 jmp r1          		jmp		R1				;PC <= 0x0200
                                 
                                 ;jump location to test branching
                                 origin	0x0200
-0200 0026 00023 st [r2], r3     st		[R2], R3		;mem[0x03] = 0xffff
-0201 2910 05210 sllx r5, r1     sllx	R5, R1			;R5 <= 0x0400
-0202 3190 06310 srlx r6, r1     srlx	R6, R1			;R6 <= 0x0100
-0203 3b14 07612 addx r7, r1, r2 addx	R7, R1, R2		;R7 <= 0x0203
-0204 22b4 04532 andx r4, r3, r2 andx	R4, R3, R2		;R4 <= 0x0003
-0205 1c22 03821 orx r3, r2, r1  orx		R3, R2, R1		;R2 <= 0x0203
-0206 2cdc 05956 subx r5, r5, r6 subx	R5, R5, R6		;R5 <= 0x0300
-0207 30a0 06120 ld r6, [r2]     ld		R6, [R2]		;R6 <= mem[0x0003] <= 0xffff
-0208 8300 20300 call 0x0300     call	0x0300			;PC <= 0x0300, SP<=0x0209
-0209 4000 10000 hlt             hlt						;stop ops, go reset
+0200 0026 00023 st [r2], r3     		st		[R2], R3		;mem[0x03] = 0xffff
+0201 2910 05210 sllx r5, r1     		sllx	R5, R1			;R5 <= 0x0400
+0202 3190 06310 srlx r6, r1     		srlx	R6, R1			;R6 <= 0x0100
+0203 3b14 07612 addx r7, r1, r2 		addx	R7, R1, R2		;R7 <= 0x0203
+0204 22b4 04532 andx r4, r3, r2 		andx	R4, R3, R2		;R4 <= 0x0003
+0205 1c22 03821 orx r3, r2, r1  		orx		R3, R2, R1		;R2 <= 0x0203
+0206 2cdc 05956 subx r5, r5, r6 		subx	R5, R5, R6		;R5 <= 0x0300
+0207 30a0 06120 ld r6, [r2]     		ld		R6, [R2]		;R6 <= mem[0x0003] <= 0xffff
+0208 3cfe 07977 subx r7, r7, r7 		subx	R7, R7, R7		;R7 <= 0
+0209 4607 10607 bz 7            		bz		dest1			;branch to dest1 if zero
+020a 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1  dummies to test branch
+020b 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+020c 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+020d 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+020e 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+020f 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+0210 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+0211 4407 10407 ba 7            dest1:	ba		dest2			;branch always to dest2
+0212 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1 dummies to test branch
+0213 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0214 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0215 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0216 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0217 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0218 5301 12301 addi r2, 1      		addi	R2, 0x01		;R2 <= R2 + 1
+0219 3cea 07965 subx r7, r6, r5 dest2:	subx	R7, R6, R5		;R7 <= -0x0200
+021a 4507 10507 bn 7            		bn		dest3			;branch if negative to dest3		
+021b 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1  dummies to test branch
+021c 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+021d 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+021e 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+021f 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+0220 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+0221 4b01 11301 addi r1, 1      		addi	R1, 0x01		;R1 <= R1 + 1
+0222 8300 20300 call 0x0300     dest3:	call	0x0300			;PC <= 0x0300, SP<=0x0209
+0223 4000 10000 hlt             		hlt						;stop ops, go reset
                                 
                                 ;function call destination address
                                 origin 0x0300
-0300 4100 10100 ret             ret						;PC <= SP = 0x0209
+0300 4100 10100 ret             		ret						;PC <= SP = 0x0209
 
 ------------------------------------------------------------------------------
 Symbol Table (alpha order)
 ------------------------------------------------------------------------------
+                            dest1 0211                              dest2 0219
+                            dest3 0222
 ------------------------------------------------------------------------------
-There are 0 symbols.
+There are 3 symbols.

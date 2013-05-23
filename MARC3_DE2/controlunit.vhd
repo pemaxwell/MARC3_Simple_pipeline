@@ -60,11 +60,11 @@ begin
 	--ctl_wd(3) <= ld_op;
 	--ctl_wd(2) <= st_op;
 	
-	aluA_sel <= '1' when (reset='1' AND ((IR(15 downto 14)="01" AND test="X001") OR (IR(15)='1'))) else		--source SP only for call and return commands
+	aluA_sel <= '1' when (reset='1' AND ((IR(15 downto 14)="01" AND IR(10 downto 8)="001") OR (IR(15)='1'))) else		--source SP only for call and return commands
 					'0';
 					
 	aluB_sel <= "00" when (reset = '1' AND IR(15 downto 14)="00") else													--format 0 instructions source data B lines
-					"11" when (reset='1' AND ((IR(15 downto 14)="01" AND test="X001") OR (IR(15)='1'))) else		--source ALU B with a constant 1  call or return
+					"11" when (reset='1' AND ((IR(15 downto 14)="01" AND IR(10 downto 8)="001") OR (IR(15)='1'))) else		--source ALU B with a constant 1  call or return
 					"01";																														--source ALU B with offset field
 	
 	pc_sel <= "01" when (reset='1' AND IR(15)='1') else																		--(op = call) else

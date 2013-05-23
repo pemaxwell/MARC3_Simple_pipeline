@@ -78,6 +78,8 @@ ON
 # hierarchies {
 bit16_2_to_1_mux:inst8
 bit16_2_to_1_mux:inst15
+bit16_2_to_1_mux:inst12
+bit16_2_to_1_mux:inst13
 }
 # macro_sequence
 
@@ -296,6 +298,8 @@ aglobal111.inc
 # hierarchies {
 bit16_2_to_1_mux:inst8|lpm_mux:LPM_MUX_component
 bit16_2_to_1_mux:inst15|lpm_mux:LPM_MUX_component
+bit16_2_to_1_mux:inst12|lpm_mux:LPM_MUX_component
+bit16_2_to_1_mux:inst13|lpm_mux:LPM_MUX_component
 }
 # macro_sequence
 
@@ -462,6 +466,8 @@ data0
 # hierarchies {
 bit16_2_to_1_mux:inst8|lpm_mux:LPM_MUX_component|mux_89e:auto_generated
 bit16_2_to_1_mux:inst15|lpm_mux:LPM_MUX_component|mux_89e:auto_generated
+bit16_2_to_1_mux:inst12|lpm_mux:LPM_MUX_component|mux_89e:auto_generated
+bit16_2_to_1_mux:inst13|lpm_mux:LPM_MUX_component|mux_89e:auto_generated
 }
 # macro_sequence
 
@@ -7062,36 +7068,6 @@ systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|s
 
 # end
 # entity
-mem_wb_reg
-# storage
-db|MARC3.(2).cnf
-db|MARC3.(2).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-mem_wb_reg.vhd
-5994e79fa32a2f4a5d41fdbb0ced18a
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-mem_wb_reg:inst6
-}
-# macro_sequence
-
-# end
-# entity
 ex_mem_reg
 # storage
 db|MARC3.(3).cnf
@@ -7179,6 +7155,96 @@ ON
 X16bit_4_to_1_mux:pc_sel_mux
 X16bit_4_to_1_mux:inst30
 X16bit_4_to_1_mux:inst29
+}
+# macro_sequence
+
+# end
+# entity
+wb_sel_control
+# storage
+db|MARC3.(16).cnf
+db|MARC3.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+wb_sel_control.vhd
+9a4312366fc41187d08819efa1aeffd5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+wb_sel_control:inst17
+}
+# macro_sequence
+
+# end
+# entity
+function_unit
+# storage
+db|MARC3.(4).cnf
+db|MARC3.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+function_unit.vhd
+28c03f15d13db782a1a3b078b5e1b876
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+function_unit:inst3
+}
+# macro_sequence
+
+# end
+# entity
+systemram
+# storage
+db|MARC3.(58).cnf
+db|MARC3.(58).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+systemram.vhd
+4062d1c85f63652d2697bd50994c15fb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+systemram:inst2
 }
 # macro_sequence
 
@@ -7440,100 +7506,10 @@ address_a0
 }
 # memory_file {
 marc_test_no_haz.mif
-bbf82f61fba12a682d30adedad2df097
+e9674cc6674625a24b11b77fd8963de
 }
 # hierarchies {
 systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|altsyncram_vpe2:altsyncram1
-}
-# macro_sequence
-
-# end
-# entity
-wb_sel_control
-# storage
-db|MARC3.(16).cnf
-db|MARC3.(16).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-wb_sel_control.vhd
-9a4312366fc41187d08819efa1aeffd5
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-wb_sel_control:inst17
-}
-# macro_sequence
-
-# end
-# entity
-pc_sel_control
-# storage
-db|MARC3.(18).cnf
-db|MARC3.(18).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-pc_sel_control.vhd
-ee1516d0b02c6b8d5b4b76716f334817
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-pc_sel_control:inst5
-}
-# macro_sequence
-
-# end
-# entity
-function_unit
-# storage
-db|MARC3.(4).cnf
-db|MARC3.(4).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-function_unit.vhd
-28c03f15d13db782a1a3b078b5e1b876
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-function_unit:inst3
 }
 # macro_sequence
 
@@ -7550,7 +7526,7 @@ ON
 # case_insensitive
 # source_file
 controlunit.vhd
-872636e85438c39498d5dd078aab1e1
+b7f1825c44ad32bd4058877aec41d4a6
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -7569,18 +7545,38 @@ controlunit:inst16
 
 # end
 # entity
-systemram
+MARC3
 # storage
-db|MARC3.(58).cnf
-db|MARC3.(58).cnf
+db|MARC3.(0).cnf
+db|MARC3.(0).cnf
+# case_insensitive
+# source_file
+marc3.bdf
+dd6e29c71dad97579de1fe19c687fb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+mem_wb_reg
+# storage
+db|MARC3.(2).cnf
+db|MARC3.(2).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
 }
 # case_insensitive
 # source_file
-systemram.vhd
-4062d1c85f63652d2697bd50994c15fb
+mem_wb_reg.vhd
+63f4eadc62f714cd39c7b130ae1a89e1
 5
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -7593,27 +7589,37 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-systemram:inst2
+mem_wb_reg:inst6
 }
 # macro_sequence
 
 # end
 # entity
-MARC3
+pc_sel_control
 # storage
-db|MARC3.(0).cnf
-db|MARC3.(0).cnf
+db|MARC3.(18).cnf
+db|MARC3.(18).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
 # case_insensitive
 # source_file
-marc3.bdf
-125d6ccd6c2cbcb83d393b7fa8e81a5f
-26
+pc_sel_control.vhd
+3c72f59babed7f35b4ebadfe1e8f9dee
+5
 # internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
 }
 # hierarchies {
-|
+pc_sel_control:inst5
 }
 # macro_sequence
 

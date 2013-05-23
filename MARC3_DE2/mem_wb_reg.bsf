@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 328 176)
+	(rect 16 16 328 208)
 	(text "mem_wb_reg" (rect 5 0 75 12)(font "Arial" ))
-	(text "inst" (rect 8 144 36 156)(font "Arial" ))
+	(text "inst" (rect 8 176 36 188)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -66,6 +66,20 @@ applicable agreement for further details.
 		(line (pt 0 112)(pt 16 112)(line_width 1))
 	)
 	(port
+		(pt 0 128)
+		(input)
+		(text "zero" (rect 0 0 28 12)(font "Arial" ))
+		(text "zero" (rect 21 123 49 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "negative" (rect 0 0 56 12)(font "Arial" ))
+		(text "negative" (rect 21 139 77 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
 		(pt 312 32)
 		(output)
 		(text "R_we_out" (rect 0 0 56 12)(font "Arial" ))
@@ -100,7 +114,28 @@ applicable agreement for further details.
 		(text "ctrl_out[5..0]" (rect 192 91 291 103)(font "Arial" ))
 		(line (pt 312 96)(pt 296 96)(line_width 3))
 	)
+	(port
+		(pt 312 112)
+		(output)
+		(text "zero_mem" (rect 0 0 56 12)(font "Arial" ))
+		(text "zero_mem" (rect 235 107 291 119)(font "Arial" ))
+		(line (pt 312 112)(pt 296 112)(line_width 1))
+	)
+	(port
+		(pt 312 128)
+		(output)
+		(text "negative_mem" (rect 0 0 84 12)(font "Arial" ))
+		(text "negative_mem" (rect 207 123 291 135)(font "Arial" ))
+		(line (pt 312 128)(pt 296 128)(line_width 1))
+	)
+	(port
+		(pt 312 144)
+		(output)
+		(text "ret_op" (rect 0 0 42 12)(font "Arial" ))
+		(text "ret_op" (rect 249 139 291 151)(font "Arial" ))
+		(line (pt 312 144)(pt 296 144)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 296 144)(line_width 1))
+		(rectangle (rect 16 16 296 176)(line_width 1))
 	)
 )

@@ -1,5 +1,6 @@
 onerror {resume}
 quietly virtual signal -install /marc3 { (context /marc3 )(\inst15|LPM_MUX_component|auto_generated|result_node[15]~9_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[14]~11_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[13]~10_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[12]~15_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[11]~6_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[10]~8_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[9]~7_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[8]~14_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[7]~3_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[6]~5_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[5]~4_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[4]~12_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[3]~0_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[2]~2_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[1]~1_combout\ & \inst15|LPM_MUX_component|auto_generated|result_node[0]~13_combout\ )} wb_mux_result
+quietly virtual signal -install /marc3 { (context /marc3 )(\inst5|pc_sel[1]~5_combout\ & \inst5|pc_sel[0]~1_combout\ )} pc_mel
 quietly WaveActivateNextPane {} 0
 add wave -noupdate -color Gold /marc3/LCD_RS
 add wave -noupdate -color Gold /marc3/LCD_E
@@ -25,6 +26,7 @@ add wave -noupdate -expand -group {ID Stage} -label id/ex_reg/aluB_sel_out /marc
 add wave -noupdate -expand -group {ID Stage} /marc3/\\inst4|aluA_sel_out~q\\
 add wave -noupdate -expand -group {EX Stage} -label ex/mem_reg/alu_out -radix hexadecimal /marc3/\\inst1|alu_out\\
 add wave -noupdate -expand -group {EX Stage} -label ex/mem/pc_out -radix hexadecimal /marc3/\\inst1|pc_out\\
+add wave -noupdate -expand -group {EX Stage} -label pc_sel /marc3/pc_mel
 add wave -noupdate -expand -group {Mem Stage} -label mem/wb_reg/ctrl_out /marc3/\\inst6|ctrl_out\\
 add wave -noupdate -expand -group {Mem Stage} -label mem/wb_reg/ram_out -radix hexadecimal /marc3/\\inst6|ram_out\\
 add wave -noupdate -expand -group {Mem Stage} -label mem/wb_reg/alu_data_out -radix hexadecimal /marc3/\\inst6|alu_data_out\\
@@ -39,7 +41,7 @@ add wave -noupdate -radix hexadecimal /marc3/\\RegisterFile|R5|data_out\\
 add wave -noupdate -radix hexadecimal /marc3/\\RegisterFile|R6|data_out\\
 add wave -noupdate -radix hexadecimal /marc3/\\RegisterFile|R7|data_out\\
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {2760 ps} 0}
+WaveRestoreCursors {{Cursor 1} {255050 ps} 0}
 configure wave -namecolwidth 220
 configure wave -valuecolwidth 56
 configure wave -justifyvalue left
@@ -54,7 +56,7 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {2083 ps} {3204 ps}
+WaveRestoreZoom {209890 ps} {353250 ps}
 bookmark add wave bookmark0 {{2078 ps} {3199 ps}} 0
 bookmark add wave bookmark1 {{2078 ps} {3199 ps}} 0
 bookmark add wave bookmark2 {{2078 ps} {3199 ps}} 0

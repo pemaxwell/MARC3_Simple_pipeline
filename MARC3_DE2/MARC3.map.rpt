@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MARC3
-Wed May 22 12:35:21 2013
+Thu May 23 13:36:04 2013
 Quartus II 32-bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
 
 
@@ -18,29 +18,30 @@ Quartus II 32-bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Editio
  10. State Machine - |MARC3|DE2_CLOCK:inst26|next_command
  11. State Machine - |MARC3|DE2_CLOCK:inst26|state
  12. Registers Removed During Synthesis
- 13. Removed Registers Triggering Further Register Optimizations
- 14. General Register Statistics
- 15. Inverted Register Statistics
- 16. Multiplexer Restructuring Statistics (Restructuring Performed)
- 17. Source assignments for systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|altsyncram_vpe2:altsyncram1
- 18. Source assignments for systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|altsyncram_3o82:altsyncram1
- 19. Parameter Settings for User Entity Instance: LCD_mux:inst27|LPM_MUX:LPM_MUX_component
- 20. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst8|LPM_MUX:LPM_MUX_component
- 21. Parameter Settings for User Entity Instance: PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component
- 22. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst15|LPM_MUX:LPM_MUX_component
- 23. Parameter Settings for User Entity Instance: systemrom:inst9|altsyncram:altsyncram_component
- 24. Parameter Settings for User Entity Instance: systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2
- 25. Parameter Settings for User Entity Instance: constant0:inst18|lpm_constant:LPM_CONSTANT_component
- 26. Parameter Settings for User Entity Instance: constant1:inst22|lpm_constant:LPM_CONSTANT_component
- 27. Parameter Settings for User Entity Instance: PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component
- 28. Parameter Settings for User Entity Instance: systemram:inst2|altsyncram:altsyncram_component
- 29. Parameter Settings for User Entity Instance: systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2
- 30. Parameter Settings for User Entity Instance: mux3bit_2_to_1:inst19|LPM_MUX:LPM_MUX_component
- 31. Parameter Settings for Inferred Entity Instance: sld_hub:auto_hub
- 32. altsyncram Parameter Settings by Entity Instance
- 33. In-System Memory Content Editor Settings
- 34. Elapsed Time Per Partition
- 35. Analysis & Synthesis Messages
+ 13. General Register Statistics
+ 14. Inverted Register Statistics
+ 15. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 16. Source assignments for systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|altsyncram_vpe2:altsyncram1
+ 17. Source assignments for systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|altsyncram_3o82:altsyncram1
+ 18. Parameter Settings for User Entity Instance: LCD_mux:inst27|LPM_MUX:LPM_MUX_component
+ 19. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst8|LPM_MUX:LPM_MUX_component
+ 20. Parameter Settings for User Entity Instance: PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component
+ 21. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst15|LPM_MUX:LPM_MUX_component
+ 22. Parameter Settings for User Entity Instance: systemrom:inst9|altsyncram:altsyncram_component
+ 23. Parameter Settings for User Entity Instance: systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2
+ 24. Parameter Settings for User Entity Instance: constant0:inst18|lpm_constant:LPM_CONSTANT_component
+ 25. Parameter Settings for User Entity Instance: constant1:inst22|lpm_constant:LPM_CONSTANT_component
+ 26. Parameter Settings for User Entity Instance: PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component
+ 27. Parameter Settings for User Entity Instance: systemram:inst2|altsyncram:altsyncram_component
+ 28. Parameter Settings for User Entity Instance: systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2
+ 29. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst12|LPM_MUX:LPM_MUX_component
+ 30. Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst13|LPM_MUX:LPM_MUX_component
+ 31. Parameter Settings for User Entity Instance: mux3bit_2_to_1:inst19|LPM_MUX:LPM_MUX_component
+ 32. Parameter Settings for Inferred Entity Instance: sld_hub:auto_hub
+ 33. altsyncram Parameter Settings by Entity Instance
+ 34. In-System Memory Content Editor Settings
+ 35. Elapsed Time Per Partition
+ 36. Analysis & Synthesis Messages
 
 
 
@@ -66,15 +67,15 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 22 12:35:21 2013         ;
+; Analysis & Synthesis Status        ; Successful - Thu May 23 13:36:04 2013         ;
 ; Quartus II 32-bit Version          ; 11.1 Build 216 11/23/2011 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MARC3                                         ;
 ; Top-level Entity Name              ; MARC3                                         ;
 ; Family                             ; Cyclone IV E                                  ;
-; Total logic elements               ; 1,334                                         ;
-;     Total combinational functions  ; 1,139                                         ;
-;     Dedicated logic registers      ; 593                                           ;
-; Total registers                    ; 593                                           ;
+; Total logic elements               ; 1,392                                         ;
+;     Total combinational functions  ; 1,194                                         ;
+;     Dedicated logic registers      ; 603                                           ;
+; Total registers                    ; 603                                           ;
 ; Total pins                         ; 18                                            ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 1,048,576                                     ;
@@ -185,77 +186,77 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                   ;
-+-------------------------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------+
-; File Name with User-Entered Path                                  ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                              ;
-+-------------------------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------+
-; X16bit_4_to_1_mux.vhd                                             ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd           ;
-; MARC3.bdf                                                         ; yes             ; User Block Diagram/Schematic File      ; C:/Users/paul.maxwell/Documents/MARC3_DE2/MARC3.bdf                       ;
-; datapath.vhd                                                      ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd                    ;
-; reg16bit.vhd                                                      ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd                    ;
-; function_unit.vhd                                                 ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd               ;
-; ex_mem_reg.vhd                                                    ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd                  ;
-; mem_wb_reg.vhd                                                    ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd                  ;
-; id_ex_reg.vhd                                                     ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd                   ;
-; if_id_reg.vhd                                                     ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd                   ;
-; DE2_CLOCK.vhd                                                     ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd                   ;
-; controlunit.vhd                                                   ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd                 ;
-; systemrom.vhd                                                     ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd                   ;
-; systemram.vhd                                                     ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd                   ;
-; PC_adder.vhd                                                      ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd                    ;
-; bit16_2_to_1_mux.vhd                                              ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd            ;
-; PC_displ_adder.vhd                                                ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd              ;
-; pc_sel_control.vhd                                                ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd              ;
-; wb_sel_control.vhd                                                ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd              ;
-; mux3bit_2_to_1.vhd                                                ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd              ;
-; LCD_mux.vhd                                                       ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd                     ;
-; constant0.vhd                                                     ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd                   ;
-; constant1.vhd                                                     ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd                   ;
-; reset_vector1.vhd                                                 ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd               ;
-; PC_reg.vhd                                                        ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd                      ;
-; sp_reg.vhd                                                        ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd                      ;
-; lpm_mux.tdf                                                       ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_mux.tdf             ;
-; aglobal111.inc                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/aglobal111.inc          ;
-; muxlut.inc                                                        ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/muxlut.inc              ;
-; bypassff.inc                                                      ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/bypassff.inc            ;
-; altshift.inc                                                      ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altshift.inc            ;
-; db/mux_f9e.tdf                                                    ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/mux_f9e.tdf                  ;
-; db/mux_89e.tdf                                                    ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/mux_89e.tdf                  ;
-; lpm_add_sub.tdf                                                   ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;
-; addcore.inc                                                       ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/addcore.inc             ;
-; look_add.inc                                                      ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/look_add.inc            ;
-; alt_stratix_add_sub.inc                                           ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;
-; db/add_sub_1uh.tdf                                                ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/add_sub_1uh.tdf              ;
-; altsyncram.tdf                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altsyncram.tdf          ;
-; stratix_ram_block.inc                                             ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/stratix_ram_block.inc   ;
-; lpm_mux.inc                                                       ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_mux.inc             ;
-; lpm_decode.inc                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_decode.inc          ;
-; a_rdenreg.inc                                                     ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/a_rdenreg.inc           ;
-; altrom.inc                                                        ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altrom.inc              ;
-; altram.inc                                                        ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altram.inc              ;
-; altdpram.inc                                                      ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altdpram.inc            ;
-; db/altsyncram_p6d1.tdf                                            ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_p6d1.tdf          ;
-; db/altsyncram_vpe2.tdf                                            ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_vpe2.tdf          ;
-; marc_test_no_haz.mif                                              ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/paul.maxwell/Documents/MARC3_DE2/marc_test_no_haz.mif            ;
-; db/decode_msa.tdf                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/decode_msa.tdf               ;
-; db/decode_f8a.tdf                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/decode_f8a.tdf               ;
-; db/mux_lob.tdf                                                    ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/mux_lob.tdf                  ;
-; sld_mod_ram_rom.vhd                                               ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd     ;
-; sld_rom_sr.vhd                                                    ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_rom_sr.vhd          ;
-; lpm_constant.tdf                                                  ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_constant.tdf        ;
-; db/add_sub_ajh.tdf                                                ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/add_sub_ajh.tdf              ;
-; db/altsyncram_lbi1.tdf                                            ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_lbi1.tdf          ;
-; db/altsyncram_3o82.tdf                                            ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_3o82.tdf          ;
-; db/mux_k7e.tdf                                                    ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/mux_k7e.tdf                  ;
-; sld_hub.vhd                                                       ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_hub.vhd             ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_hcc1.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_hcc1.tdf          ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_ftd2.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_ftd2.tdf          ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/marc2_de2_115_test1.mif ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/paul.maxwell/Documents/MARC3_DE2/marc2_de2_115_test1.mif         ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/add_sub_2vh.tdf      ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/add_sub_2vh.tdf              ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_mjh1.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_mjh1.tdf          ;
-; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_et72.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/MARC3_DE2/db/altsyncram_et72.tdf          ;
-+-------------------------------------------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                     ;
++------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path                                                               ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                   ;
++------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------------------+
+; X16bit_4_to_1_mux.vhd                                                                          ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd   ;
+; MARC3.bdf                                                                                      ; yes             ; User Block Diagram/Schematic File      ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/MARC3.bdf               ;
+; datapath.vhd                                                                                   ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd            ;
+; reg16bit.vhd                                                                                   ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd            ;
+; function_unit.vhd                                                                              ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd       ;
+; ex_mem_reg.vhd                                                                                 ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd          ;
+; mem_wb_reg.vhd                                                                                 ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd          ;
+; id_ex_reg.vhd                                                                                  ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd           ;
+; if_id_reg.vhd                                                                                  ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd           ;
+; DE2_CLOCK.vhd                                                                                  ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd           ;
+; controlunit.vhd                                                                                ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd         ;
+; systemrom.vhd                                                                                  ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd           ;
+; systemram.vhd                                                                                  ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd           ;
+; PC_adder.vhd                                                                                   ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd            ;
+; bit16_2_to_1_mux.vhd                                                                           ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd    ;
+; PC_displ_adder.vhd                                                                             ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd      ;
+; pc_sel_control.vhd                                                                             ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd      ;
+; wb_sel_control.vhd                                                                             ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd      ;
+; mux3bit_2_to_1.vhd                                                                             ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd      ;
+; LCD_mux.vhd                                                                                    ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd             ;
+; constant0.vhd                                                                                  ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd           ;
+; constant1.vhd                                                                                  ; yes             ; User Wizard-Generated File             ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd           ;
+; reset_vector1.vhd                                                                              ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd       ;
+; PC_reg.vhd                                                                                     ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd              ;
+; sp_reg.vhd                                                                                     ; yes             ; User VHDL File                         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd              ;
+; lpm_mux.tdf                                                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_mux.tdf                                  ;
+; aglobal111.inc                                                                                 ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/aglobal111.inc                               ;
+; muxlut.inc                                                                                     ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/muxlut.inc                                   ;
+; bypassff.inc                                                                                   ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/bypassff.inc                                 ;
+; altshift.inc                                                                                   ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altshift.inc                                 ;
+; db/mux_f9e.tdf                                                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/mux_f9e.tdf          ;
+; db/mux_89e.tdf                                                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/mux_89e.tdf          ;
+; lpm_add_sub.tdf                                                                                ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_add_sub.tdf                              ;
+; addcore.inc                                                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/addcore.inc                                  ;
+; look_add.inc                                                                                   ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/look_add.inc                                 ;
+; alt_stratix_add_sub.inc                                                                        ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                      ;
+; db/add_sub_1uh.tdf                                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/add_sub_1uh.tdf      ;
+; altsyncram.tdf                                                                                 ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altsyncram.tdf                               ;
+; stratix_ram_block.inc                                                                          ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/stratix_ram_block.inc                        ;
+; lpm_mux.inc                                                                                    ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_mux.inc                                  ;
+; lpm_decode.inc                                                                                 ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_decode.inc                               ;
+; a_rdenreg.inc                                                                                  ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/a_rdenreg.inc                                ;
+; altrom.inc                                                                                     ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altrom.inc                                   ;
+; altram.inc                                                                                     ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altram.inc                                   ;
+; altdpram.inc                                                                                   ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/altdpram.inc                                 ;
+; db/altsyncram_p6d1.tdf                                                                         ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_p6d1.tdf  ;
+; db/altsyncram_vpe2.tdf                                                                         ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_vpe2.tdf  ;
+; marc_test_no_haz.mif                                                                           ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/marc_test_no_haz.mif    ;
+; db/decode_msa.tdf                                                                              ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/decode_msa.tdf       ;
+; db/decode_f8a.tdf                                                                              ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/decode_f8a.tdf       ;
+; db/mux_lob.tdf                                                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/mux_lob.tdf          ;
+; sld_mod_ram_rom.vhd                                                                            ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                          ;
+; sld_rom_sr.vhd                                                                                 ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_rom_sr.vhd                               ;
+; lpm_constant.tdf                                                                               ; yes             ; Megafunction                           ; c:/altera/11.1sp1/quartus/libraries/megafunctions/lpm_constant.tdf                             ;
+; db/add_sub_ajh.tdf                                                                             ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/add_sub_ajh.tdf      ;
+; db/altsyncram_lbi1.tdf                                                                         ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_lbi1.tdf  ;
+; db/altsyncram_3o82.tdf                                                                         ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_3o82.tdf  ;
+; db/mux_k7e.tdf                                                                                 ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/mux_k7e.tdf          ;
+; sld_hub.vhd                                                                                    ; yes             ; Encrypted Megafunction                 ; c:/altera/11.1sp1/quartus/libraries/megafunctions/sld_hub.vhd                                  ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_hcc1.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_hcc1.tdf  ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_ftd2.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_ftd2.tdf  ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/marc2_de2_115_test1.mif ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/marc2_de2_115_test1.mif ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/add_sub_2vh.tdf      ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/add_sub_2vh.tdf      ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_mjh1.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_mjh1.tdf  ;
+; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_et72.tdf  ; yes             ; Auto-Generated Megafunction            ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/db/altsyncram_et72.tdf  ;
++------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------+
@@ -263,28 +264,28 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 1,334     ;
+; Estimated Total logic elements              ; 1,392     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1139      ;
+; Total combinational functions               ; 1194      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 743       ;
-;     -- 3 input functions                    ; 231       ;
-;     -- <=2 input functions                  ; 165       ;
+;     -- 4 input functions                    ; 763       ;
+;     -- 3 input functions                    ; 268       ;
+;     -- <=2 input functions                  ; 163       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1032      ;
-;     -- arithmetic mode                      ; 107       ;
+;     -- normal mode                          ; 1085      ;
+;     -- arithmetic mode                      ; 109       ;
 ;                                             ;           ;
-; Total registers                             ; 593       ;
-;     -- Dedicated logic registers            ; 593       ;
+; Total registers                             ; 603       ;
+;     -- Dedicated logic registers            ; 603       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 18        ;
 ; Total memory bits                           ; 1048576   ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 499       ;
-; Total fan-out                               ; 10250     ;
-; Average fan-out                             ; 5.38      ;
+; Maximum fan-out                             ; 509       ;
+; Total fan-out                               ; 10467     ;
+; Average fan-out                             ; 5.31      ;
 +---------------------------------------------+-----------+
 
 
@@ -293,7 +294,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                             ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                   ; Library Name ;
 +------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |MARC3                                                                 ; 1139 (1)          ; 593 (0)      ; 1048576     ; 0            ; 0       ; 0         ; 18   ; 0            ; |MARC3                                                                                                                                                                ;              ;
+; |MARC3                                                                 ; 1194 (1)          ; 603 (0)      ; 1048576     ; 0            ; 0       ; 0         ; 18   ; 0            ; |MARC3                                                                                                                                                                ;              ;
 ;    |DE2_CLOCK:inst26|                                                  ; 107 (107)         ; 62 (62)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|DE2_CLOCK:inst26                                                                                                                                               ;              ;
 ;    |DP_MARC1:RegisterFile|                                             ; 167 (167)         ; 112 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|DP_MARC1:RegisterFile                                                                                                                                          ;              ;
 ;       |reg16bit:R1|                                                    ; 0 (0)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|DP_MARC1:RegisterFile|reg16bit:R1                                                                                                                              ;              ;
@@ -306,31 +307,37 @@ applicable agreement for further details.
 ;    |LCD_mux:inst27|                                                    ; 80 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|LCD_mux:inst27                                                                                                                                                 ;              ;
 ;       |lpm_mux:LPM_MUX_component|                                      ; 80 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|LCD_mux:inst27|lpm_mux:LPM_MUX_component                                                                                                                       ;              ;
 ;          |mux_f9e:auto_generated|                                      ; 80 (80)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|LCD_mux:inst27|lpm_mux:LPM_MUX_component|mux_f9e:auto_generated                                                                                                ;              ;
-;    |PC_adder:inst11|                                                   ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11                                                                                                                                                ;              ;
-;       |lpm_add_sub:LPM_ADD_SUB_component|                              ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component                                                                                                              ;              ;
-;          |add_sub_1uh:auto_generated|                                  ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component|add_sub_1uh:auto_generated                                                                                   ;              ;
-;    |PC_displ_adder:inst7|                                              ; 45 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7                                                                                                                                           ;              ;
-;       |lpm_add_sub:LPM_ADD_SUB_component|                              ; 45 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component                                                                                                         ;              ;
-;          |add_sub_ajh:auto_generated|                                  ; 45 (45)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component|add_sub_ajh:auto_generated                                                                              ;              ;
-;    |PC_reg:PC|                                                         ; 1 (1)             ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_reg:PC                                                                                                                                                      ;              ;
+;    |PC_adder:inst11|                                                   ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11                                                                                                                                                ;              ;
+;       |lpm_add_sub:LPM_ADD_SUB_component|                              ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component                                                                                                              ;              ;
+;          |add_sub_1uh:auto_generated|                                  ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_adder:inst11|lpm_add_sub:LPM_ADD_SUB_component|add_sub_1uh:auto_generated                                                                                   ;              ;
+;    |PC_displ_adder:inst7|                                              ; 48 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7                                                                                                                                           ;              ;
+;       |lpm_add_sub:LPM_ADD_SUB_component|                              ; 48 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component                                                                                                         ;              ;
+;          |add_sub_ajh:auto_generated|                                  ; 48 (48)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_displ_adder:inst7|lpm_add_sub:LPM_ADD_SUB_component|add_sub_ajh:auto_generated                                                                              ;              ;
+;    |PC_reg:PC|                                                         ; 1 (1)             ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|PC_reg:PC                                                                                                                                                      ;              ;
 ;    |X16bit_4_to_1_mux:inst30|                                          ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|X16bit_4_to_1_mux:inst30                                                                                                                                       ;              ;
-;    |X16bit_4_to_1_mux:pc_sel_mux|                                      ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|X16bit_4_to_1_mux:pc_sel_mux                                                                                                                                   ;              ;
+;    |X16bit_4_to_1_mux:pc_sel_mux|                                      ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|X16bit_4_to_1_mux:pc_sel_mux                                                                                                                                   ;              ;
+;    |bit16_2_to_1_mux:inst12|                                           ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst12                                                                                                                                        ;              ;
+;       |lpm_mux:LPM_MUX_component|                                      ; 15 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst12|lpm_mux:LPM_MUX_component                                                                                                              ;              ;
+;          |mux_89e:auto_generated|                                      ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst12|lpm_mux:LPM_MUX_component|mux_89e:auto_generated                                                                                       ;              ;
+;    |bit16_2_to_1_mux:inst13|                                           ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst13                                                                                                                                        ;              ;
+;       |lpm_mux:LPM_MUX_component|                                      ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst13|lpm_mux:LPM_MUX_component                                                                                                              ;              ;
+;          |mux_89e:auto_generated|                                      ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst13|lpm_mux:LPM_MUX_component|mux_89e:auto_generated                                                                                       ;              ;
 ;    |bit16_2_to_1_mux:inst15|                                           ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst15                                                                                                                                        ;              ;
 ;       |lpm_mux:LPM_MUX_component|                                      ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst15|lpm_mux:LPM_MUX_component                                                                                                              ;              ;
 ;          |mux_89e:auto_generated|                                      ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst15|lpm_mux:LPM_MUX_component|mux_89e:auto_generated                                                                                       ;              ;
 ;    |bit16_2_to_1_mux:inst8|                                            ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst8                                                                                                                                         ;              ;
 ;       |lpm_mux:LPM_MUX_component|                                      ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst8|lpm_mux:LPM_MUX_component                                                                                                               ;              ;
 ;          |mux_89e:auto_generated|                                      ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|bit16_2_to_1_mux:inst8|lpm_mux:LPM_MUX_component|mux_89e:auto_generated                                                                                        ;              ;
-;    |controlunit:inst16|                                                ; 51 (51)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|controlunit:inst16                                                                                                                                             ;              ;
-;    |ex_mem_reg:inst1|                                                  ; 0 (0)             ; 41 (41)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|ex_mem_reg:inst1                                                                                                                                               ;              ;
-;    |function_unit:inst3|                                               ; 147 (147)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|function_unit:inst3                                                                                                                                            ;              ;
-;    |id_ex_reg:inst4|                                                   ; 9 (9)             ; 83 (83)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|id_ex_reg:inst4                                                                                                                                                ;              ;
-;    |if_id_reg:inst|                                                    ; 0 (0)             ; 37 (37)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|if_id_reg:inst                                                                                                                                                 ;              ;
-;    |mem_wb_reg:inst6|                                                  ; 0 (0)             ; 42 (42)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|mem_wb_reg:inst6                                                                                                                                               ;              ;
+;    |controlunit:inst16|                                                ; 52 (52)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|controlunit:inst16                                                                                                                                             ;              ;
+;    |ex_mem_reg:inst1|                                                  ; 0 (0)             ; 45 (45)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|ex_mem_reg:inst1                                                                                                                                               ;              ;
+;    |function_unit:inst3|                                               ; 160 (160)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|function_unit:inst3                                                                                                                                            ;              ;
+;    |id_ex_reg:inst4|                                                   ; 9 (9)             ; 84 (84)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|id_ex_reg:inst4                                                                                                                                                ;              ;
+;    |if_id_reg:inst|                                                    ; 0 (0)             ; 38 (38)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|if_id_reg:inst                                                                                                                                                 ;              ;
+;    |mem_wb_reg:inst6|                                                  ; 2 (2)             ; 45 (45)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|mem_wb_reg:inst6                                                                                                                                               ;              ;
 ;    |mux3bit_2_to_1:inst19|                                             ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|mux3bit_2_to_1:inst19                                                                                                                                          ;              ;
 ;       |lpm_mux:LPM_MUX_component|                                      ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|mux3bit_2_to_1:inst19|lpm_mux:LPM_MUX_component                                                                                                                ;              ;
 ;          |mux_k7e:auto_generated|                                      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|mux3bit_2_to_1:inst19|lpm_mux:LPM_MUX_component|mux_k7e:auto_generated                                                                                         ;              ;
-;    |pc_sel_control:inst5|                                              ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|pc_sel_control:inst5                                                                                                                                           ;              ;
+;    |pc_sel_control:inst5|                                              ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|pc_sel_control:inst5                                                                                                                                           ;              ;
 ;    |sld_hub:auto_hub|                                                  ; 119 (81)          ; 76 (48)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|sld_hub:auto_hub                                                                                                                                               ;              ;
 ;       |sld_rom_sr:hub_info_reg|                                        ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|sld_hub:auto_hub|sld_rom_sr:hub_info_reg                                                                                                                       ;              ;
 ;       |sld_shadow_jsm:shadow_jsm|                                      ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MARC3|sld_hub:auto_hub|sld_shadow_jsm:shadow_jsm                                                                                                                     ;              ;
@@ -371,22 +378,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+--------+----------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                           ;
-+--------+--------------+---------+--------------+--------------+--------------------------------+----------------------------------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                ; IP Include File                                                ;
-+--------+--------------+---------+--------------+--------------+--------------------------------+----------------------------------------------------------------+
-; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|LCD_mux:inst27          ; C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd          ;
-; Altera ; LPM_ADD_SUB  ; 11.1    ; N/A          ; N/A          ; |MARC3|PC_adder:inst11         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd         ;
-; Altera ; LPM_ADD_SUB  ; 11.1    ; N/A          ; N/A          ; |MARC3|PC_displ_adder:inst7    ; C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd   ;
-; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst15 ; C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd ;
-; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst8  ; C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd ;
-; Altera ; LPM_CONSTANT ; 11.1    ; N/A          ; N/A          ; |MARC3|constant0:inst18        ; C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd        ;
-; Altera ; LPM_CONSTANT ; 11.1    ; N/A          ; N/A          ; |MARC3|constant1:inst22        ; C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd        ;
-; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|mux3bit_2_to_1:inst19   ; C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd   ;
-; Altera ; RAM: 1-PORT  ; 11.1    ; N/A          ; N/A          ; |MARC3|systemram:inst2         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd        ;
-; Altera ; ROM: 1-PORT  ; 11.1    ; N/A          ; N/A          ; |MARC3|systemrom:inst9         ; C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd        ;
-+--------+--------------+---------+--------------+--------------+--------------------------------+----------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                        ;
++--------+--------------+---------+--------------+--------------+--------------------------------+---------------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                ; IP Include File                                                                             ;
++--------+--------------+---------+--------------+--------------+--------------------------------+---------------------------------------------------------------------------------------------+
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|LCD_mux:inst27          ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd          ;
+; Altera ; LPM_ADD_SUB  ; 11.1    ; N/A          ; N/A          ; |MARC3|PC_adder:inst11         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd         ;
+; Altera ; LPM_ADD_SUB  ; 11.1    ; N/A          ; N/A          ; |MARC3|PC_displ_adder:inst7    ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd   ;
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst12 ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd ;
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst13 ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd ;
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst15 ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd ;
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|bit16_2_to_1_mux:inst8  ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd ;
+; Altera ; LPM_CONSTANT ; 11.1    ; N/A          ; N/A          ; |MARC3|constant0:inst18        ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd        ;
+; Altera ; LPM_CONSTANT ; 11.1    ; N/A          ; N/A          ; |MARC3|constant1:inst22        ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd        ;
+; Altera ; LPM_MUX      ; 11.1    ; N/A          ; N/A          ; |MARC3|mux3bit_2_to_1:inst19   ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd   ;
+; Altera ; RAM: 1-PORT  ; 11.1    ; N/A          ; N/A          ; |MARC3|systemram:inst2         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd        ;
+; Altera ; ROM: 1-PORT  ; 11.1    ; N/A          ; N/A          ; |MARC3|systemrom:inst9         ; C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd        ;
++--------+--------------+---------+--------------+--------------+--------------------------------+---------------------------------------------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -450,21 +459,8 @@ Encoding Type:  One-Hot
 ; DE2_CLOCK:inst26|next_command.TOGGLE_E ; Stuck at GND due to stuck port data_in ;
 ; DE2_CLOCK:inst26|next_command.HOLD     ; Stuck at GND due to stuck port data_in ;
 ; DE2_CLOCK:inst26|next_command.RESET1   ; Stuck at GND due to stuck port data_in ;
-; PC_reg:PC|data_out[15]                 ; Lost fanout                            ;
-; ex_mem_reg:inst1|pc_out[15]            ; Lost fanout                            ;
-; id_ex_reg:inst4|PC_src[15]             ; Lost fanout                            ;
-; if_id_reg:inst|PC_out[15]              ; Lost fanout                            ;
-; Total Number of Removed Registers = 8  ;                                        ;
+; Total Number of Removed Registers = 4  ;                                        ;
 +----------------------------------------+----------------------------------------+
-
-
-+------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                              ;
-+----------------------------+--------------------+----------------------------------------+
-; Register name              ; Reason for Removal ; Registers Removed due to This Register ;
-+----------------------------+--------------------+----------------------------------------+
-; id_ex_reg:inst4|PC_src[15] ; Lost Fanouts       ; if_id_reg:inst|PC_out[15]              ;
-+----------------------------+--------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -472,10 +468,10 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 593   ;
+; Total registers                              ; 603   ;
 ; Number of registers using Synchronous Clear  ; 48    ;
 ; Number of registers using Synchronous Load   ; 41    ;
-; Number of registers using Asynchronous Clear ; 484   ;
+; Number of registers using Asynchronous Clear ; 494   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 232   ;
 ; Number of registers using Preset             ; 0     ;
@@ -492,16 +488,16 @@ Encoding Type:  One-Hot
 ; DE2_CLOCK:inst26|DATA_BUS_VALUE[4]      ; 2       ;
 ; DE2_CLOCK:inst26|DATA_BUS_VALUE[3]      ; 2       ;
 ; PC_reg:PC|data_out[7]                   ; 1       ;
-; sp_reg:SP|data_out[9]                   ; 2       ;
-; sp_reg:SP|data_out[8]                   ; 1       ;
-; sp_reg:SP|data_out[7]                   ; 2       ;
-; sp_reg:SP|data_out[6]                   ; 1       ;
-; sp_reg:SP|data_out[5]                   ; 2       ;
-; sp_reg:SP|data_out[4]                   ; 1       ;
-; sp_reg:SP|data_out[3]                   ; 2       ;
-; sp_reg:SP|data_out[2]                   ; 1       ;
-; sp_reg:SP|data_out[1]                   ; 3       ;
-; sp_reg:SP|data_out[0]                   ; 1       ;
+; sp_reg:SP|data_out[9]                   ; 3       ;
+; sp_reg:SP|data_out[8]                   ; 3       ;
+; sp_reg:SP|data_out[7]                   ; 3       ;
+; sp_reg:SP|data_out[6]                   ; 3       ;
+; sp_reg:SP|data_out[5]                   ; 3       ;
+; sp_reg:SP|data_out[4]                   ; 3       ;
+; sp_reg:SP|data_out[3]                   ; 3       ;
+; sp_reg:SP|data_out[2]                   ; 3       ;
+; sp_reg:SP|data_out[1]                   ; 4       ;
+; sp_reg:SP|data_out[0]                   ; 2       ;
 ; sld_hub:auto_hub|tdo                    ; 2       ;
 ; Total number of inverted registers = 16 ;         ;
 +-----------------------------------------+---------+
@@ -512,23 +508,23 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                                                                                                                                            ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[4]                                                   ;                            ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[8]                                                   ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |MARC3|ex_mem_reg:inst1|pc_out[15]                                                                                                                                                    ;                            ;
-; 3:1                ; 20 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; |MARC3|DE2_CLOCK:inst26|CLK_COUNT_400HZ[6]                                                                                                                                            ;                            ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; |MARC3|id_ex_reg:inst4|regA_out[4]                                                                                                                                                    ;                            ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; |MARC3|id_ex_reg:inst4|regB_out[2]                                                                                                                                                    ;                            ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[2] ;                            ;
-; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[1]    ;                            ;
-; 7:1                ; 7 bits    ; 28 LEs        ; 21 LEs               ; 7 LEs                  ; |MARC3|id_ex_reg:inst4|offset_out[12]                                                                                                                                                 ;                            ;
-; 16:1               ; 4 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[3]      ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[10]                                                  ;                            ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_reg[12]                                                  ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |MARC3|ex_mem_reg:inst1|pc_out[10]                                                                                                                                                    ;                            ;
+; 3:1                ; 20 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; |MARC3|DE2_CLOCK:inst26|CLK_COUNT_400HZ[9]                                                                                                                                            ;                            ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; |MARC3|id_ex_reg:inst4|regA_out[15]                                                                                                                                                   ;                            ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; |MARC3|id_ex_reg:inst4|regB_out[11]                                                                                                                                                   ;                            ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|word_counter[3] ;                            ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|word_counter[3]    ;                            ;
+; 7:1                ; 7 bits    ; 28 LEs        ; 21 LEs               ; 7 LEs                  ; |MARC3|id_ex_reg:inst4|offset_out[11]                                                                                                                                                 ;                            ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 24 LEs               ; 16 LEs                 ; |MARC3|systemrom:inst9|altsyncram:altsyncram_component|altsyncram_p6d1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:no_name_gen:info_rom_sr|WORD_SR[1]      ;                            ;
 ; 7:1                ; 7 bits    ; 28 LEs        ; 7 LEs                ; 21 LEs                 ; |MARC3|id_ex_reg:inst4|offset_out[3]                                                                                                                                                  ;                            ;
 ; 19:1               ; 4 bits    ; 48 LEs        ; 8 LEs                ; 40 LEs                 ; |MARC3|id_ex_reg:inst4|cntl_out[13]                                                                                                                                                   ;                            ;
-; 24:1               ; 4 bits    ; 64 LEs        ; 44 LEs               ; 20 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[3]         ;                            ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |MARC3|X16bit_4_to_1_mux:pc_sel_mux|output[4]                                                                                                                                         ;                            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |MARC3|X16bit_4_to_1_mux:inst30|output[6]                                                                                                                                             ;                            ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |MARC3|controlunit:inst16|ctl_wd[7]                                                                                                                                                   ;                            ;
-; 14:1               ; 14 bits   ; 126 LEs       ; 84 LEs               ; 42 LEs                 ; |MARC3|function_unit:inst3|Mux14                                                                                                                                                      ;                            ;
+; 24:1               ; 4 bits    ; 64 LEs        ; 44 LEs               ; 20 LEs                 ; |MARC3|systemram:inst2|altsyncram:altsyncram_component|altsyncram_lbi1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|WORD_SR[2]         ;                            ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; |MARC3|X16bit_4_to_1_mux:pc_sel_mux|output[14]                                                                                                                                        ;                            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; |MARC3|X16bit_4_to_1_mux:inst30|output[12]                                                                                                                                            ;                            ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |MARC3|controlunit:inst16|ctl_wd[8]                                                                                                                                                   ;                            ;
+; 14:1               ; 14 bits   ; 126 LEs       ; 84 LEs               ; 42 LEs                 ; |MARC3|function_unit:inst3|Mux12                                                                                                                                                      ;                            ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; |MARC3|function_unit:inst3|Add0                                                                                                                                                       ;                            ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; |MARC3|function_unit:inst3|Add0                                                                                                                                                       ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+
@@ -855,6 +851,44 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst12|LPM_MUX:LPM_MUX_component ;
++------------------------+--------------+--------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                   ;
++------------------------+--------------+--------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                             ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                           ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                           ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                         ;
+; LPM_WIDTH              ; 16           ; Signed Integer                                         ;
+; LPM_SIZE               ; 2            ; Signed Integer                                         ;
+; LPM_WIDTHS             ; 1            ; Signed Integer                                         ;
+; LPM_PIPELINE           ; 0            ; Signed Integer                                         ;
+; CBXI_PARAMETER         ; mux_89e      ; Untyped                                                ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                ;
++------------------------+--------------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: bit16_2_to_1_mux:inst13|LPM_MUX:LPM_MUX_component ;
++------------------------+--------------+--------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                   ;
++------------------------+--------------+--------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                             ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                           ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                           ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                         ;
+; LPM_WIDTH              ; 16           ; Signed Integer                                         ;
+; LPM_SIZE               ; 2            ; Signed Integer                                         ;
+; LPM_WIDTHS             ; 1            ; Signed Integer                                         ;
+; LPM_PIPELINE           ; 0            ; Signed Integer                                         ;
+; CBXI_PARAMETER         ; mux_89e      ; Untyped                                                ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                ;
++------------------------+--------------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mux3bit_2_to_1:inst19|LPM_MUX:LPM_MUX_component ;
 +------------------------+--------------+------------------------------------------------------+
@@ -940,7 +974,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:15     ;
+; Top            ; 00:00:14     ;
 +----------------+--------------+
 
 
@@ -950,7 +984,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed May 22 12:35:01 2013
+    Info: Processing started: Thu May 23 13:35:45 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MARC3 -c MARC3
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file x16bit_4_to_1_mux.vhd
@@ -1242,21 +1276,16 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LCD_RW" is stuck at GND
     Warning (13410): Pin "LCD_ON" is stuck at VCC
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
-Info (17049): 4 registers lost all their fanouts during netlist optimizations. The first 4 are displayed below.
-    Info (17050): Register "PC_reg:PC|data_out[15]" lost all its fanouts during netlist optimizations.
-    Info (17050): Register "ex_mem_reg:inst1|pc_out[15]" lost all its fanouts during netlist optimizations.
-    Info (17050): Register "id_ex_reg:inst4|PC_src[15]" lost all its fanouts during netlist optimizations.
-    Info (17050): Register "if_id_reg:inst|PC_out[15]" lost all its fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-Info (21057): Implemented 1561 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1623 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 8 input pins
     Info (21059): Implemented 14 output pins
-    Info (21061): Implemented 1410 logic cells
+    Info (21061): Implemented 1472 logic cells
     Info (21064): Implemented 128 RAM segments
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 12 warnings
     Info: Peak virtual memory: 339 megabytes
-    Info: Processing ended: Wed May 22 12:35:21 2013
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Processing ended: Thu May 23 13:36:04 2013
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:18
 
 

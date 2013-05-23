@@ -10,14 +10,14 @@
 # ** Warning: Copied C:\altera\11.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity X16bit_4_to_1_mux
 # -- Compiling architecture X16bit_4_to_1_mux of X16bit_4_to_1_mux
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -26,14 +26,14 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity DP_MARC1
 # -- Compiling architecture dataflow of DP_MARC1
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity reg16bit
 # -- Compiling architecture reg16bit of reg16bit
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -42,35 +42,35 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity function_unit
 # -- Compiling architecture function_unit of function_unit
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ex_mem_reg
 # -- Compiling architecture ex_mem_reg of ex_mem_reg
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mem_wb_reg
 # -- Compiling architecture mem_wb_reg of mem_wb_reg
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity id_ex_reg
 # -- Compiling architecture id_ex_reg of id_ex_reg
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity if_id_reg
 # -- Compiling architecture if_id_reg of if_id_reg
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -79,7 +79,7 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity DE2_CLOCK
 # -- Compiling architecture a of DE2_CLOCK
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -88,28 +88,28 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity controlunit
 # -- Compiling architecture controlunit of controlunit
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity systemrom
 # -- Compiling architecture SYN of systemrom
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity systemram
 # -- Compiling architecture SYN of systemram
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC_adder
 # -- Compiling architecture SYN of pc_adder
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -117,28 +117,28 @@
 # -- Loading package LPM_COMPONENTS
 # -- Compiling entity bit16_2_to_1_mux
 # -- Compiling architecture SYN of bit16_2_to_1_mux
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC_displ_adder
 # -- Compiling architecture SYN of pc_displ_adder
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity pc_sel_control
 # -- Compiling architecture pc_sel of pc_sel_control
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity wb_sel_control
 # -- Compiling architecture wb_sel of wb_sel_control
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -146,7 +146,7 @@
 # -- Loading package LPM_COMPONENTS
 # -- Compiling entity mux3bit_2_to_1
 # -- Compiling architecture SYN of mux3bit_2_to_1
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -154,35 +154,35 @@
 # -- Loading package LPM_COMPONENTS
 # -- Compiling entity LCD_mux
 # -- Compiling architecture SYN of lcd_mux
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity constant0
 # -- Compiling architecture SYN of constant0
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity constant1
 # -- Compiling architecture SYN of constant1
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity reset_vector1
 # -- Compiling architecture rvector of reset_vector1
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity PC_reg
 # -- Compiling architecture pc16bit of PC_reg
-# vcom -93 -work work {C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd}
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -191,7 +191,265 @@
 # -- Compiling architecture sp16bit of sp_reg
 # 
 #  
-vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim +altera -do MARC3_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.marc3
+# vsim +altera -do MARC3_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+# do MARC3_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity X16bit_4_to_1_mux
+# -- Compiling architecture X16bit_4_to_1_mux of X16bit_4_to_1_mux
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity DP_MARC1
+# -- Compiling architecture dataflow of DP_MARC1
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg16bit
+# -- Compiling architecture reg16bit of reg16bit
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity function_unit
+# -- Compiling architecture function_unit of function_unit
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ex_mem_reg
+# -- Compiling architecture ex_mem_reg of ex_mem_reg
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mem_wb_reg
+# -- Compiling architecture mem_wb_reg of mem_wb_reg
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity id_ex_reg
+# -- Compiling architecture id_ex_reg of id_ex_reg
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity if_id_reg
+# -- Compiling architecture if_id_reg of if_id_reg
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity DE2_CLOCK
+# -- Compiling architecture a of DE2_CLOCK
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity controlunit
+# -- Compiling architecture controlunit of controlunit
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity systemrom
+# -- Compiling architecture SYN of systemrom
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity systemram
+# -- Compiling architecture SYN of systemram
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC_adder
+# -- Compiling architecture SYN of pc_adder
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity bit16_2_to_1_mux
+# -- Compiling architecture SYN of bit16_2_to_1_mux
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC_displ_adder
+# -- Compiling architecture SYN of pc_displ_adder
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pc_sel_control
+# -- Compiling architecture pc_sel of pc_sel_control
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity wb_sel_control
+# -- Compiling architecture wb_sel of wb_sel_control
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity mux3bit_2_to_1
+# -- Compiling architecture SYN of mux3bit_2_to_1
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity LCD_mux
+# -- Compiling architecture SYN of lcd_mux
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity constant0
+# -- Compiling architecture SYN of constant0
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity constant1
+# -- Compiling architecture SYN of constant1
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reset_vector1
+# -- Compiling architecture rvector of reset_vector1
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC_reg
+# -- Compiling architecture pc16bit of PC_reg
+# vcom -93 -work work {C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sp_reg
+# -- Compiling architecture sp16bit of sp_reg
+# 
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+run
+run
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+add wave -position 24  sim:/marc3/\inst5|pc_sel[1]~3_combout\
+add wave -position 24  sim:/marc3/\inst5|pc_sel[0]~1_combout\
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
 # Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -238,11 +496,15 @@ vsim -voptargs=+acc rtl_work.marc3
 # This port will contribute value (U) to the signal network.
 # ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
 # This port will contribute value (U) to the signal network.
-do C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+# ** Error: evaluating expression "(context /marc3 )(\inst5|pc_sel[1]~3_combout\ & \inst5|pc_sel[0]~1_combout\ )"
+# No object found matching \inst5|pc_sel[1]~3_combout\.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 3
+# ** Error: (vish-4014) No objects found matching '/marc3/pc_sel'.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 29
 force -freeze sim:/marc3/Reset_Pin 0 0
 force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
 force -freeze sim:/marc3/reg_select 001 0
-run
 run
 run
 run
@@ -251,14 +513,600 @@ force -freeze sim:/marc3/Reset_Pin 1 0
 run
 run
 run
-# WARNING: No extended dataflow license exists
-# No drivers or ports for LCD_RS
-# No drivers or ports for LCD_E
-# No drivers or ports for RESET_LED
-# No drivers or ports for LCD_RW
-# No drivers or ports for LCD_ON
-# No drivers or ports for LCD_DATA_BUS
-# No drivers or ports for Reset_Pin
-# No drivers or ports for clk
-# No drivers or ports for reg_select
-# No drivers or ports for 25 additional signals omitted for message brevity.
+run
+add wave -position 24  sim:/marc3/\inst5|pc_sel[0]~1_combout\
+add wave -position 27  sim:/marc3/\inst5|pc_sel[1]~5_combout\
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+run
+run
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+run
+run
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -work work -O0 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/reg_select 001 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+# ** Error: evaluating expression "(context /marc3 )(\inst5|pc_sel[1]~5_combout\ & \inst5|pc_sel[0]~1_combout\ )"
+# No object found matching \inst5|pc_sel[1]~5_combout\.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 3
+# ** Error: (vish-4014) No objects found matching '/marc3/pc_mel'.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 29
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+# ** Error: evaluating expression "(context /marc3 )(\inst5|pc_sel[1]~5_combout\ & \inst5|pc_sel[0]~1_combout\ )"
+# No object found matching \inst5|pc_sel[1]~5_combout\.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 3
+# ** Error: (vish-4014) No objects found matching '/marc3/pc_mel'.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 29
+force -freeze sim:/marc3/Reset_Pin 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity MARC3
+# -- Compiling architecture structure of MARC3
+vsim -voptargs=+acc rtl_work.marc3
+# vsim -voptargs=+acc rtl_work.marc3 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading rtl_work.marc3(structure)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+do C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/initial_MARC3_test.do
+# ** Error: evaluating expression "(context /marc3 )(\inst5|pc_sel[1]~5_combout\ & \inst5|pc_sel[0]~1_combout\ )"
+# No object found matching \inst5|pc_sel[1]~5_combout\.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 3
+# ** Error: (vish-4014) No objects found matching '/marc3/pc_mel'.
+# Executing ONERROR command at macro C:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim\initial_MARC3_test.do line 29
+force -freeze sim:/marc3/Reset_Pin 0 0
+force -freeze sim:/marc3/clk 1 0, 0 {5000 ps} -r {10 ns}
+force -freeze sim:/marc3/reg_select 001 0
+run
+force -freeze sim:/marc3/Reset_Pin 1 0
+run
+run
+run
+run
+run
+dataset reload -f {}
+# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /marc3/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+dataset reload -f {}
+# wrong number of args for "dataset info".
+# Usage: dataset info <option> <dataset_name>
+dataset reload -f marc3_no_hazards
+# Dataset not found: marc3_no_hazards
+# Warning in wave window restart: (vish-4014) No objects found matching '/marc3/wb_mux_result'. 
+# C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/marc3_no_hazs_test.wlf opened as dataset "marc3_no_hazs_test"
+dataset reload -f {}
+# marc3_no_hazs_test:/marc3
+run
+# No Design Loaded!
+quit -sim
+quit -sim
+quit -sim
+quit

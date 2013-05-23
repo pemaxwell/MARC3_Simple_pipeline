@@ -2,23 +2,23 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\paul.maxwell\Documents\MARC3_DE2\simulation\modelsim
+Z0 dC:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim
 Ebit16_2_to_1_mux
 Z1 w1368105664
 Z2 DPx3 lpm 14 lpm_components 0 22 8^KMh7;8Da^oDjHX_6W442
 Z3 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
 Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z5 dC:\Users\paul.maxwell\Documents\MARC3_DE2\simulation\modelsim
-Z6 8C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd
-Z7 FC:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd
+Z5 dC:\Users\paul.maxwell\Documents\GitHub\MARC3_Simple_pipeline\MARC3_DE2\simulation\modelsim
+Z6 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd
+Z7 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd
 l0
 L42
 Vz`4e=C;V:]QRMJV<C7`@<3
 Z8 OV;C;10.0c;49
 31
-Z9 !s108 1369241156.421000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd|
-Z11 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/bit16_2_to_1_mux.vhd|
+Z9 !s108 1369308187.524000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd|
+Z11 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/bit16_2_to_1_mux.vhd|
 Z12 o-93 -work work -O0
 Z13 tExplicit 1
 !s100 e]NoNO1ai<n6kQA78LfA32
@@ -43,16 +43,16 @@ Z14 w1368553728
 R3
 R4
 R5
-Z15 8C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd
-Z16 FC:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd
+Z15 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd
+Z16 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd
 l0
 L42
 VoLKZOCemBnESzfnAX7=:z0
 R8
 31
-Z17 !s108 1369241157.233000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd|
-Z19 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/constant0.vhd|
+Z17 !s108 1369308188.257000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd|
+Z19 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant0.vhd|
 R12
 R13
 !s100 OaRj969>YM20_3nIaZ0aP1
@@ -76,16 +76,16 @@ Z20 w1368553814
 R3
 R4
 R5
-Z21 8C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd
-Z22 FC:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd
+Z21 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd
+Z22 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd
 l0
 L42
 VPe15KRPTH;MEdE;Sk=CkE1
 R8
 31
-Z23 !s108 1369241157.326000
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd|
-Z25 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/constant1.vhd|
+Z23 !s108 1369308188.382000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd|
+Z25 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/constant1.vhd|
 R12
 R13
 !s100 =443ld9eU1^Dd:m:iXCNE3
@@ -111,16 +111,16 @@ Z28 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 R3
 R4
 R5
-Z29 8C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd
-Z30 FC:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd
+Z29 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd
+Z30 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd
 l0
 L27
 VC:aGPODY8z?ie_hc^R1aQ2
 R8
 31
-Z31 !s108 1369241155.922000
-Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd|
-Z33 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/controlunit.vhd|
+Z31 !s108 1369308187.025000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd|
+Z33 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/controlunit.vhd|
 R12
 R13
 !s100 A@dnNEoAGnJZ:IKFmF;;X3
@@ -148,16 +148,16 @@ R27
 R3
 R4
 R5
-Z35 8C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd
-Z36 FC:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd
+Z35 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd
+Z36 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd
 l0
 L7
 Vmb9iC=>0193f5Y;Rl43<f1
 R8
 31
-Z37 !s108 1369241155.813000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd|
-Z39 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/DE2_CLOCK.vhd|
+Z37 !s108 1369308186.931000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd|
+Z39 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/DE2_CLOCK.vhd|
 R12
 R13
 !s100 lHj?dclTci]TkZDV5a1:S0
@@ -185,16 +185,16 @@ R28
 R3
 R4
 R5
-Z41 8C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd
-Z42 FC:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd
+Z41 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd
+Z42 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd
 l0
 L11
 VH]^J?iBP;bNXR?@6Ee26V3
 R8
 31
-Z43 !s108 1369241155.064000
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd|
-Z45 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/datapath.vhd|
+Z43 !s108 1369308186.058000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd|
+Z45 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/datapath.vhd|
 R12
 R13
 !s100 Gz<2nFoQoiR8SEl1aCL@01
@@ -220,16 +220,16 @@ Z46 w1369150451
 R3
 R4
 R5
-Z47 8C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd
-Z48 FC:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd
+Z47 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd
+Z48 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd
 l0
 L13
 Vc^JkJg3IXMiiInOiGQ@kM1
 R8
 31
-Z49 !s108 1369241155.345000
-Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd|
-Z51 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/ex_mem_reg.vhd|
+Z49 !s108 1369308186.401000
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd|
+Z51 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/ex_mem_reg.vhd|
 R12
 R13
 !s100 14F2@la^78SlS??6_IfRF3
@@ -255,16 +255,16 @@ R28
 R3
 R4
 R5
-Z53 8C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd
-Z54 FC:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd
+Z53 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd
+Z54 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd
 l0
 L26
 V0d@@=Bkk<QSTN6KaJMUNf1
 R8
 31
-Z55 !s108 1369241155.236000
-Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd|
-Z57 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/function_unit.vhd|
+Z55 !s108 1369308186.307000
+Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd|
+Z57 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/function_unit.vhd|
 R12
 R13
 !s100 WBR^;UZnROJn0CK2nz5zP0
@@ -290,16 +290,16 @@ Z58 w1369150386
 R3
 R4
 R5
-Z59 8C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd
-Z60 FC:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd
+Z59 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd
+Z60 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd
 l0
 L13
 V8_ZNOoh7c?Xg4[cV]@feR3
 R8
 31
-Z61 !s108 1369241155.532000
-Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd|
-Z63 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/id_ex_reg.vhd|
+Z61 !s108 1369308186.650000
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd|
+Z63 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/id_ex_reg.vhd|
 R12
 R13
 !s100 _B8diNMLc:k<QC78X[>hU0
@@ -323,16 +323,16 @@ Z64 w1369077272
 R3
 R4
 R5
-Z65 8C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd
-Z66 FC:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd
+Z65 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd
+Z66 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd
 l0
 L13
 VTmE_6^jcmm<Id0RWebEV80
 R8
 31
-Z67 !s108 1369241155.688000
-Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd|
-Z69 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/if_id_reg.vhd|
+Z67 !s108 1369308186.806000
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd|
+Z69 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/if_id_reg.vhd|
 R12
 R13
 !s100 U3[<hK^XP03=_GOJWJ2hV0
@@ -357,16 +357,16 @@ R2
 R3
 R4
 R5
-Z71 8C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd
-Z72 FC:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd
+Z71 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd
+Z72 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd
 l0
 L42
 VL2ndg?GVfPTb8Xd:HPPYj0
 R8
 31
-Z73 !s108 1369241157.123000
-Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd|
-Z75 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/LCD_mux.vhd|
+Z73 !s108 1369308188.117000
+Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd|
+Z75 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/LCD_mux.vhd|
 R12
 R13
 !s100 ES@4fXbl_7K=jk4nC=md]3
@@ -387,7 +387,7 @@ R12
 R13
 !s100 <njW>gE72gc>TajBK^N?o0
 Emarc3
-Z76 w1369240560
+Z76 w1369330601
 Z77 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 o1R38HVMn[SE4UeTMVZCm1
 Z78 DPx10 cycloneive 21 cycloneive_components 0 22 DPT?b^WKV@PW?kKhFJ15g3
 Z79 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
@@ -397,17 +397,17 @@ R3
 R4
 Z82 DPx6 altera 28 altera_primitives_components 0 22 DYfIPb2DD]?<>^1:7T<AB3
 R5
-Z83 8C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
-Z84 FC:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho
+Z83 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
+Z84 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho
 l0
 L36
 VVYcO3RHLVdcUcaQUYK;M@1
 !s100 THj9hS]:SZXd=N]aDKL^T3
 R8
 32
-Z85 !s108 1369241168.325000
-Z86 !s90 -reportprogress|300|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho|
-Z87 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/simulation/modelsim/MARC3.vho|
+Z85 !s108 1369330796.146000
+Z86 !s90 -reportprogress|300|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho|
+Z87 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/simulation/modelsim/MARC3.vho|
 Z88 o-work work -O0
 R13
 Astructure
@@ -419,11 +419,11 @@ R81
 R3
 R4
 R82
-DEx4 work 5 marc3 0 22 VYcO3RHLVdcUcaQUYK;M@1
-l2574
+Z89 DEx4 work 5 marc3 0 22 VYcO3RHLVdcUcaQUYK;M@1
+l2635
 L79
-Vd3FGgSbciJc9E?nXdQBfL3
-!s100 4LQLK33G8mnM3`L=<E>0D2
+Z90 V@8a1LnKF<_YT0N<mldmin3
+Z91 !s100 H0EaB04L20jX_cNeV[kJh0
 R8
 32
 R85
@@ -432,20 +432,20 @@ R87
 R88
 R13
 Emem_wb_reg
-Z89 w1369150723
+Z92 w1369150723
 R3
 R4
 R5
-Z90 8C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd
-Z91 FC:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd
+Z93 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd
+Z94 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd
 l0
 L13
 V<oCNleY>QCQWd3kV]A]ME3
 R8
 31
-Z92 !s108 1369241155.439000
-Z93 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd|
-Z94 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/mem_wb_reg.vhd|
+Z95 !s108 1369308186.526000
+Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd|
+Z97 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mem_wb_reg.vhd|
 R12
 R13
 !s100 ?MTG5>H9zkc3_C9[Ei[IZ1
@@ -458,28 +458,28 @@ L29
 V[<L7ff=k>Tc20MOM2mP_?3
 R8
 31
-R92
-R93
-R94
+R95
+R96
+R97
 R12
 R13
 !s100 aVcMU?Lzk7Vd;9C6O7?>=1
 Emux3bit_2_to_1
-Z95 w1368210389
+Z98 w1368210389
 R2
 R3
 R4
 R5
-Z96 8C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd
-Z97 FC:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd
+Z99 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd
+Z100 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd
 l0
 L42
 VE]C4R5V66<;8UgZH2;`VY2
 R8
 31
-Z98 !s108 1369241156.967000
-Z99 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd|
-Z100 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/mux3bit_2_to_1.vhd|
+Z101 !s108 1369308188.023000
+Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd|
+Z103 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/mux3bit_2_to_1.vhd|
 R12
 R13
 !s100 ?]ZATLiS=9?HV0iD1m`1W0
@@ -493,27 +493,27 @@ L53
 VJ_b;=VYg2eYOKQ05]5GoX3
 R8
 31
-R98
-R99
-R100
+R101
+R102
+R103
 R12
 R13
 !s100 KHIDkM<VKQLgfP@YK96OV2
 Epc_adder
-Z101 w1367863377
+Z104 w1367863377
 R3
 R4
 R5
-Z102 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd
-Z103 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd
+Z105 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd
+Z106 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd
 l0
 L42
 VTjPeLZz56Led;KagRcS_31
 R8
 31
-Z104 !s108 1369241156.297000
-Z105 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd|
-Z106 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_adder.vhd|
+Z107 !s108 1369308187.399000
+Z108 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd|
+Z109 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_adder.vhd|
 R12
 R13
 !s100 R2CNIbVXdPnlG]MKI[^ez1
@@ -526,27 +526,27 @@ L51
 VdPm9zJJ8Y3>jA^eFAzk@e3
 R8
 31
-R104
-R105
-R106
+R107
+R108
+R109
 R12
 R13
 !s100 lIFzjOU?FF7lJEIlVZoOb1
 Epc_displ_adder
-Z107 w1368105833
+Z110 w1368105833
 R3
 R4
 R5
-Z108 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd
-Z109 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd
+Z111 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd
+Z112 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd
 l0
 L42
 VJFP?1dg:j9VQJ^[P=[C3=1
 R8
 31
-Z110 !s108 1369241156.562000
-Z111 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd|
-Z112 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_displ_adder.vhd|
+Z113 !s108 1369308187.680000
+Z114 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd|
+Z115 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_displ_adder.vhd|
 R12
 R13
 !s100 7BZJb^CeYPJ`g@EUoII5o2
@@ -559,27 +559,27 @@ L52
 VU_aZ2CflafTG^D>8enPPA0
 R8
 31
-R110
-R111
-R112
+R113
+R114
+R115
 R12
 R13
 !s100 @]?7<5i`;Qo[GMAiFfLYe3
 Epc_reg
-Z113 w1369075412
+Z116 w1369075412
 R3
 R4
 R5
-Z114 8C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd
-Z115 FC:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd
+Z117 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd
+Z118 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd
 l0
 L22
 VA[_O]e99iMf]4<[^X_Q;R0
 R8
 31
-Z116 !s108 1369241157.498000
-Z117 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd|
-Z118 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/PC_reg.vhd|
+Z119 !s108 1369308188.647000
+Z120 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd|
+Z121 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/PC_reg.vhd|
 R12
 R13
 !s100 ]NGebSK[8AQI=Nc?0J=_S0
@@ -592,27 +592,27 @@ L32
 V5FJb=b]gTAbA7S;Tk_zhY1
 R8
 31
-R116
-R117
-R118
+R119
+R120
+R121
 R12
 R13
 !s100 f`>:?V::<_o]Q4FaE<f5Y0
 Epc_sel_control
-Z119 w1369230443
+Z122 w1369230443
 R3
 R4
 R5
-Z120 8C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd
-Z121 FC:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd
+Z123 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd
+Z124 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd
 l0
 L13
 V>J6WH3KGZ3>TCeF3cOi1M0
 R8
 31
-Z122 !s108 1369241156.749000
-Z123 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd|
-Z124 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/pc_sel_control.vhd|
+Z125 !s108 1369308187.789000
+Z126 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd|
+Z127 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/pc_sel_control.vhd|
 R12
 R13
 !s100 X[PFe7f1@BOeWo^Ra`Zi_2
@@ -625,27 +625,27 @@ L29
 V1U67]KE<THXo_`e=I]O?d2
 R8
 31
-R122
-R123
-R124
+R125
+R126
+R127
 R12
 R13
 !s100 ^Xo<OGZ[2B^Di;eeK?6Hb0
 Ereg16bit
-Z125 w1368729941
+Z128 w1368729941
 R3
 R4
 R5
-Z126 8C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd
-Z127 FC:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd
+Z129 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd
+Z130 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd
 l0
 L24
 VBmDTRR2<k9LUn];6F]9[20
 R8
 31
-Z128 !s108 1369241155.142000
-Z129 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd|
-Z130 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/reg16bit.vhd|
+Z131 !s108 1369308186.214000
+Z132 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd|
+Z133 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reg16bit.vhd|
 R12
 R13
 !s100 mdD3MdgPTY:7k3HH5FELK0
@@ -658,27 +658,27 @@ L35
 V<=Zb8[R:lIe^IFe@5=]<13
 R8
 31
-R128
-R129
-R130
+R131
+R132
+R133
 R12
 R13
 !s100 :Tz4_2e4jII[_OddeX;:42
 Ereset_vector1
-Z131 w1369055091
+Z134 w1369055091
 R3
 R4
 R5
-Z132 8C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd
-Z133 FC:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd
+Z135 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd
+Z136 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd
 l0
 L13
 VLB7c8=eUYmK@MkSAUUV<=0
 R8
 31
-Z134 !s108 1369241157.420000
-Z135 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd|
-Z136 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/reset_vector1.vhd|
+Z137 !s108 1369308188.507000
+Z138 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd|
+Z139 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/reset_vector1.vhd|
 R12
 R13
 !s100 4>kJj0WPfb>@W?A<1];3W1
@@ -691,27 +691,27 @@ L19
 VQJSRoYc?07fFbzi<dPP3T0
 R8
 31
-R134
-R135
-R136
+R137
+R138
+R139
 R12
 R13
 !s100 SM=VN_b<YU:R<jngF:[l<2
 Esp_reg
-Z137 w1369059128
+Z140 w1369059128
 R3
 R4
 R5
-Z138 8C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd
-Z139 FC:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd
+Z141 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd
+Z142 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd
 l0
 L22
 V`;SMaa6kSSJNb?I8zcB?C0
 R8
 31
-Z140 !s108 1369241157.622000
-Z141 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd|
-Z142 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/sp_reg.vhd|
+Z143 !s108 1369308188.756000
+Z144 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd|
+Z145 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/sp_reg.vhd|
 R12
 R13
 !s100 a:>eOKbY6EMo3?5Fg9ADn1
@@ -724,27 +724,27 @@ L33
 V>JQ:NmPQS@9JJlT_7E8;k0
 R8
 31
-R140
-R141
-R142
+R143
+R144
+R145
 R12
 R13
 !s100 f^OT`fk1Rk9KzobnW<4EK3
 Esystemram
-Z143 w1369239745
+Z146 w1369239745
 R3
 R4
 R5
-Z144 8C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd
-Z145 FC:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd
+Z147 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd
+Z148 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd
 l0
 L42
 VDD2VaV@[ak^CPi`GdAlfK3
 R8
 31
-Z146 !s108 1369241156.156000
-Z147 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd|
-Z148 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/systemram.vhd|
+Z149 !s108 1369308187.228000
+Z150 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd|
+Z151 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemram.vhd|
 R12
 R13
 !s100 6fDF:5eI<WZWP3<@b=9C81
@@ -757,27 +757,27 @@ L54
 VAMQ`JNS5c5m=QX4kf2VCY1
 R8
 31
-R146
-R147
-R148
+R149
+R150
+R151
 R12
 R13
 !s100 jhR?3A][6h3ha3=MO;LPb3
 Esystemrom
-Z149 w1369139183
+Z152 w1369139183
 R3
 R4
 R5
-Z150 8C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd
-Z151 FC:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd
+Z153 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd
+Z154 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd
 l0
 L42
 VSJjF<49^AfLkNjQdiS13R1
 R8
 31
-Z152 !s108 1369241156.063000
-Z153 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd|
-Z154 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/systemrom.vhd|
+Z155 !s108 1369308187.134000
+Z156 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd|
+Z157 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/systemrom.vhd|
 R12
 R13
 !s100 Oo_O`Eg28Hf8M`_FEL]<=3
@@ -790,27 +790,27 @@ L52
 VeFlceiNZ>k`GIg8PQ=^Ea2
 R8
 31
-R152
-R153
-R154
+R155
+R156
+R157
 R12
 R13
 !s100 :ZcT;]IzVK8MZUf2NG`8@1
 Ewb_sel_control
-Z155 w1369230299
+Z158 w1369230299
 R3
 R4
 R5
-Z156 8C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd
-Z157 FC:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd
+Z159 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd
+Z160 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd
 l0
 L13
 Vfd5lzFY?YkQcn:AUal=SE3
 R8
 31
-Z158 !s108 1369241156.843000
-Z159 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd|
-Z160 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/wb_sel_control.vhd|
+Z161 !s108 1369308187.945000
+Z162 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd|
+Z163 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/wb_sel_control.vhd|
 R12
 R13
 !s100 1eeWG7J?EH^^c?PSzH5EP1
@@ -823,27 +823,27 @@ L24
 Vb6`G@I<YTKn6[@U1UHB2G2
 R8
 31
-R158
-R159
-R160
+R161
+R162
+R163
 R12
 R13
 !s100 oS^P]ON^38:oTLG_TLOaZ2
 Ex16bit_4_to_1_mux
-Z161 w1369155317
+Z164 w1369155317
 R3
 R4
 R5
-Z162 8C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd
-Z163 FC:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd
+Z165 8C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd
+Z166 FC:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd
 l0
 L29
 Vdz?I^?]Va;9@5kHd5[[Ii0
 R8
 31
-Z164 !s108 1369241154.830000
-Z165 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd|
-Z166 !s107 C:/Users/paul.maxwell/Documents/MARC3_DE2/X16bit_4_to_1_mux.vhd|
+Z167 !s108 1369308185.948000
+Z168 !s90 -reportprogress|300|-93|-work|work|C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd|
+Z169 !s107 C:/Users/paul.maxwell/Documents/GitHub/MARC3_Simple_pipeline/MARC3_DE2/X16bit_4_to_1_mux.vhd|
 R12
 R13
 !s100 akofSX>LBAHzd:9NmWCA83
@@ -856,9 +856,9 @@ L47
 VTR7V?`jz4K;hzeKPaYioK3
 R8
 31
-R164
-R165
-R166
+R167
+R168
+R169
 R12
 R13
 !s100 57Ue3LGWhf<XBWf]<Rf<73

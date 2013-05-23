@@ -22,14 +22,19 @@ entity mem_wb_reg is
 		 alu_data_out : out STD_LOGIC_VECTOR(15 downto 0);
 		 dest_reg : out STD_LOGIC_VECTOR(2 downto 0);			-- destination register to write data into
 		 ctrl_out : out STD_LOGIC_VECTOR(5 downto 0);			-- values to control WB stage mux
-		 reset : IN STD_LOGIC
+		 reset : IN STD_LOGIC;
+		 zero	: IN STD_LOGIC;
+		 negative : IN STD_LOGIC;
+		 zero_mem : out std_logic;
+		 negative_mem : out std_logic;
+		 ret_op	: out std_logic										-- bit to indicate that a ret instruction is processing
 	     );
 end mem_wb_reg;
 
 architecture mem_wb_reg of mem_wb_reg is
 begin
 
-	reg : process (clock, reset,R_we,ram_in,alu_data_in,ctrl_in)
+	reg : process (clock, reset,R_we,ram_in,alu_data_in,ctrl_in, zero, negative)
 	begin
 		if (reset = '0') then
 			R_we_out <= '0';
@@ -37,12 +42,22 @@ begin
 			alu_data_out <= (others=>'0');
 			dest_reg <= (others=>'0');
 			ctrl_out <= (others=>'0');
+			zero_mem <= '0';
+			negative_mem <= '0'; 
+			ret_op <= '0';
 		elsif (clock'event and clock = '1') then
 			R_we_out <= R_we;
 			ram_out <= ram_in;
 			alu_data_out <= alu_data_in;
 			dest_reg <= ctrl_in(11 downto 9);
 			ctrl_out <= ctrl_in(13 downto 12) & ctrl_in(8 downto 5);
+			zero_mem <= zero;
+			negative_mem <= negative;
+			if (ctrl_in(13 downto 12)="01" AND ctrl_in(8 downto 5)="1110") then		--ret instruction
+				ret_op <= '1';
+			else
+				ret_op <= '0';
+			end if;
 		end if;
 	end process;
 	
